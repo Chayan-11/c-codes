@@ -1,1 +1,2 @@
 #Day1 - Learned about the Basics of GitHub + GitHub Features like Repositories, Pull Request, Issues, User Profile, using markdown on GitHub and GitHub Community.
+#Day2 - Learned about branching, clonning and forking (i.e) GitHub flow basically. Also learned about functions and practiced some problems from Functions.
