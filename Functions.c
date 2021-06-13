@@ -91,3 +91,24 @@ int min(int a, int b){
 
 return(a>b)? b : a;
 }
+
+Question:- Program to check whether an integer is even or odd using functions
+
+#include <stdio.h>
+int abc(int);
+int main(){
+int n;
+printf("Enter the integer to be checked:- ");
+scanf("%d",&n);
+n=abc(n);
+if(n==0)
+    printf("Even Integer");
+else
+    printf("Odd Integer");
+
+    return 0;
+}
+int abc(int p){
+return p%2;
+}
+
