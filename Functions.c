@@ -68,3 +68,26 @@ double area(double r){
 return(M_PI*r*r);
 }
 
+Question:- Program to find the maximum and minimum between two numbers using functions
+
+#include <stdio.h>
+int max(int a, int b);
+int min(int a, int b);
+int main()
+{
+    int a,b,maximum,minimum;
+    printf("Enter any two numbers:- ");
+    scanf("%d %d",&a,&b);
+    maximum=max(a,b);
+    minimum=min(a,b);
+    printf("Maximum = %d\n",maximum);
+    printf("Minimum = %d",minimum);
+    return 0;
+}
+int max(int a, int b){
+return(a>b)? a : b;
+}
+int min(int a, int b){
+
+return(a>b)? b : a;
+}
