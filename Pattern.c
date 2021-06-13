@@ -146,3 +146,39 @@ Ans:-
     return 0;
 }     
   
+Question:- 
+  
+  1
+  12
+  123
+  1234
+  12345
+  1234
+  123
+  12
+  1
+  
+  Ans:- 
+   
+#include <stdio.h>
+int main()
+{
+    int no_of_rows,row,column;
+    printf("Enter no of rows:- ");
+    scanf("%d",&no_of_rows);
+    for(row=1;row<=no_of_rows;row++){
+            for(column=1;column<=row;column++){
+                printf("%d",column);
+            }
+        printf("\n");
+    }
+        for(row=no_of_rows-1;row>1;row--){
+            for(column=1;column<=row;column++){
+                printf("%d",column);
+            }
+            printf("\n");
+    }
+    return 0;
+}
+  
+  
