@@ -36,3 +36,35 @@ int main()
 double cube(double n){
 return(n*n*n);
 }
+
+Question:- Program to calculate the diameter, circumference and area of a circle using functions
+
+#include <stdio.h>
+#include <math.h>
+double dia(double r);
+double circum(double r);
+double area(double r);
+
+int main()
+{
+   float r,d,c,a;
+   printf("Enter radius of the circle:- ");
+   scanf("%f",&r);
+   d=dia(r);
+   c=circum(r);
+   a=area(r);
+   printf("Diameter of the circle = %.2f\n",d);
+   printf("Circumference of the circle = %.2f\n",c);
+   printf("Area of the circle = %.2f\n",a);
+   return 0;
+}
+double dia(double r){
+return(2*r);
+}
+double circum(double r){
+return(2*M_PI*r);
+}
+double area(double r){
+return(M_PI*r*r);
+}
+
