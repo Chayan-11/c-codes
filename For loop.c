@@ -29,3 +29,25 @@ int main()
    }
     return 0;
 }
+
+#program to calculate the following problem:-
+(1/2^2) + (2/3^2) + (3/4^2) +...........+ (n/(n+1)^2)
+    
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int n,i;
+    float s=0;
+    printf("Enter any integer:- ");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        s=s+i/pow(i+1,2);
+        printf("%f\n",s);
+    }
+
+    return 0;
+}
+   
