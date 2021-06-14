@@ -66,3 +66,19 @@ int main()
         printf("%d\n",i);
     return 0;
 }
+
+#program to enter any number and print the odd factors of that number except 1 and 3.
+
+#include <stdio.h>
+int main()
+{
+    int n,i;
+    printf("Enter any number:- ");
+    scanf("%d",&n);
+    for (i=5;i<=n;i+=2)
+    {
+        if(n%i==0)
+            printf("Odd factors of %d are: %d\n",n,i);
+    }
+    return 0;
+}
