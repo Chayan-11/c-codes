@@ -44,26 +44,28 @@ Question:- Program to enter any two integers and find their sum, subtraction, mu
 #include <stdio.h>
 int main()
 {
-    int m,n,a,b,c,d;
+    int a,b,c,n;
+    printf("For Sum press 1, For Sub press 2, For Multiplication press 3, For Div press 4");
+    scanf("%d",&n);
     printf("Enter any two integers:- ");
-    scanf("%d %d",&m, &n);
-    switch(m,n)
+    scanf("%d %d",&a, &b);
+    switch(n)
     {
     case 1:
-        a=m+n;
-        printf("Sum = %d\n",a);
+        c=a+b;
+        printf("Sum = %d\n",c);
         break;
     case 2:
-        b=m-n;
-        printf("Subtraction = %d",b);
+        c=a-b;
+        printf("Subtraction = %d",c);
         break;
     case 3:
-        c=m*n;
+        c=a*b;
         printf("Multiplication = %d",c);
         break;
     case 4:
-        d=m/n;
-        printf("Division = %d",d);
+        c=a/b;
+        printf("Division = %d",c);
         break;
     default:
         printf("Invalid Choice");
