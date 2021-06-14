@@ -82,3 +82,17 @@ int main()
     }
     return 0;
 }
+
+#Program to enter the value of x and y and calculate X^Y without library functions.
+
+#include <stdio.h>
+int main()
+{
+   int x,y,s=1,i;
+   printf("Enter values of x and y:- ");
+   scanf("%d %d",&x,&y);
+   for(i=1;i<=4;i++)
+    s=s*x;
+   printf("%d",s);
+    return 0;
+}
