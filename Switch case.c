@@ -120,3 +120,19 @@ int main()
     }
     return 0;
 }    
+
+Question:- Program to input any character and print the ASCII value of the character.
+  
+Ans:-
+  
+#include <stdio.h>
+int main()
+{
+   char ch;
+   int n;
+   printf("Enter any character:- ");
+   scanf("%c",&ch);
+   n=ch;
+   printf("%c = %d",ch, n);
+    return 0;
+}  
