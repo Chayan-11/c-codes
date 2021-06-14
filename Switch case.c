@@ -136,3 +136,31 @@ int main()
    printf("%c = %d",ch, n);
     return 0;
 }  
+
+Question:- Input any float number and if it has any fractional part then print the square root of the number or else print the square of the number.
+  
+Ans:- 
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+   float n,s,d;
+   int m,p;
+   printf("Enter the float number:- ");
+   scanf("%f",&n);
+   m=n;
+   s=n-m;
+   if(s>=0)
+   {
+       d=sqrt(s);
+       printf("%f",d);
+   }
+   else
+   {
+       p=pow(n,s);
+       printf("%d",p);
+   }
+    return 0;
+}  
