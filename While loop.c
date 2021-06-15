@@ -85,3 +85,24 @@ int main()
 
     return 0;
 }
+
+#Program to input any number and print the factorial of that number in series format
+
+#include <stdio.h>
+int main()
+{
+    int n;
+    long int f=1;
+    printf("Enter any integer:- \n");
+    scanf("%d",&n);
+    while(n>=1)
+    {
+        f=f*n;
+        if(n>1)
+            printf("%d*",n);
+        else
+            printf("%d=%d",n,f);
+        n--;
+    }
+    return 0;
+}
