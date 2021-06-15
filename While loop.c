@@ -64,3 +64,24 @@ int main()
     }
     return 0;
 }
+
+#Program to find the sum of first 'n' natural numbers with a series
+
+#include <stdio.h>
+int main()
+{
+    int n,s=0,i=1;
+    printf("Enter n natural numbers:- \n");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        s=s+i;
+        if(i<n)
+            printf("%d+",i);
+        else
+            printf("%d=%d",i,s);
+        i++;
+    }
+
+    return 0;
+}
