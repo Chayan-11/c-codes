@@ -3,3 +3,4 @@
 #Day3 - Practiced problems on Functions.
 #Day4 - Problems on Functions along with problems on Patterns.
 #Day5 - Practiced problems on For-loops, Switch case and functions.
+#Day6 - Practiced problems on while loop and functions along with learned to update the Readme profile of GitHub to create a beautiful landing page of my own profile.
