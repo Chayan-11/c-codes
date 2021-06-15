@@ -48,3 +48,19 @@ int main()
     }
     return 0;
 }
+
+#Program to input any number and print 20 numbers in descending order from that number itself
+
+#include <stdio.h>
+int main()
+{
+    int n,i;
+    printf("Enter any integer:- \n");
+    scanf("%d",&n);
+    i=n;
+    while(i>n-20)
+    {
+        printf("%d\n",i--);
+    }
+    return 0;
+}
