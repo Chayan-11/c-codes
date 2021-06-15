@@ -1,4 +1,4 @@
-#Program to print any statement for n times
+#Program to print any statement n times
 
 #include <stdio.h>
 int main()
@@ -31,6 +31,20 @@ int main()
     {
         printf("%d\n",n);
         n--;
+    }
+    return 0;
+}
+
+#Program to print all the two digits odd numbers from backwards
+
+#include <stdio.h>
+int main()
+{
+    int i=99;
+    while(i>=11)
+    {
+        printf("%d\n",i);
+        i-=2;
     }
     return 0;
 }
