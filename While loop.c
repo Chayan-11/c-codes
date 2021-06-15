@@ -106,3 +106,21 @@ int main()
     }
     return 0;
 }
+
+#Program to print the fibonacci numbers upto n terms
+
+#include <stdio.h>
+int main()
+{
+    int i=0,j=1,k,n;
+    printf("Enter any integer:- \n");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        printf("%d",i);
+        k=i+j;
+        i=j;
+        j=k;
+    }
+    return 0;
+}
