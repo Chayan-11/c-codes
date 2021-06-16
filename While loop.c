@@ -178,8 +178,6 @@ int main()
 #Program to input intgers and print the square of that integer according to users choice
 
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
     int n,sq;
@@ -194,6 +192,33 @@ int main()
         printf("The square of %d is %d\n",n,sq);
         printf("Do you want to print the square of the number Y/N");
         scanf("%c",&ch);
+    }
+    return 0;
+}
+
+#program to enter lower and upper limit and print all the prime numbers in that range
+#include <stdio.h>
+int main()
+{
+    int l,u,i,s;
+    printf("Enter the lower and upper limit:- \n");
+    scanf("%d %d",&l, &u);
+    if(l>=u)
+    {
+        printf("Not a prime number");
+    }
+    while(l<=u)
+    {
+        i=1,s=0;
+        while(i<=l/2)
+        {
+            if(l%i==0)
+                s=s+i;
+            i++;
+        }
+        if(s==1)
+            printf("%d\n",l);
+        l++;
     }
     return 0;
 }
