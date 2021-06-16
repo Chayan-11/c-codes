@@ -239,3 +239,23 @@ int main()
     }
     return 0;
 }
+
+Question:- 
+
+*
+***
+*****
+
+#include <stdio.h>
+int main()
+{
+   int i;
+   for(i=1;i<=9;i++)
+   {
+       printf("*");
+       if(i==1 || i==4)
+        printf("\n");
+   }
+
+    return 0;
+}
