@@ -259,3 +259,25 @@ int main()
 
     return 0;
 }
+
+Question:-
+  
+1
+23
+456
+78910
+  
+Ans:-
+  
+#include <stdio.h>
+int main()
+{
+    int i;
+    for(i=1;i<=10;i++)
+    {
+        printf("%d",i);
+        if(i==1 || i==3 || i==6)
+            printf("\n");
+    }
+    return 0;
+}  
