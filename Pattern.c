@@ -330,3 +330,24 @@ int main()
   }
     return 0;
 }  
+
+Question:-
+  
+55555
+333
+1
+  
+Ans:-
+  
+#include <stdio.h>
+int main()
+{
+    int i,j;
+    for(i=5;i>=1;i-=2)
+    {
+       for(j=i;j>=1;j--)
+            printf("%d",i);
+       printf("\n");
+    }
+    return 0;
+}  
