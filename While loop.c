@@ -124,3 +124,26 @@ int main()
     }
     return 0;
 }
+
+#Program to enter the lower limit and upper limit and print the sum of all the odd factors in the range
+
+#include <stdio.h>
+int main()
+{
+   int lower_limit, upper_limit,s=0;
+   printf("Enter the lower and upper limit:- \n");
+   scanf("%d %d",&lower_limit,&upper_limit);
+   if(lower_limit>=upper_limit)
+    printf("Invalid Input");
+   else
+   {
+       while(lower_limit<=upper_limit)
+       {
+           if(lower_limit%2==1)
+            s=s+lower_limit;
+           lower_limit++;
+       }
+       printf("%d",s);
+   }
+    return 0;
+}
