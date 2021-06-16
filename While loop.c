@@ -222,3 +222,26 @@ int main()
     }
     return 0;
 }
+
+#Program to enter lower and upper limit and print the factors of each number and find the sum of the factors of each number
+
+#include <stdio.h>
+int main()
+{
+    int l,u,i=1,n,s=0;
+    printf("Enter the lower and upper limit:- \n");
+    scanf("%d %d",&l,&u);
+    printf("Enter the number whose factor is to be found:- \n");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        if(n%i==0)
+        {
+            printf("%d",i);
+        }
+        i++;
+    }
+    s=s+i;
+    printf("%d",s);
+    return 0;
+}
