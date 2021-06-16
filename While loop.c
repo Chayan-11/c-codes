@@ -147,3 +147,30 @@ int main()
    }
     return 0;
 }
+
+#Program to enter lower and upper limit and print the multiplication table of that number in that range
+
+#include <stdio.h>
+int main()
+{
+    int l,u,i,j;
+    printf("Enter lower limit and upper limit:- \n");
+    scanf("%d %d",&l,&u);
+    if(l>=u)
+    {
+        printf("Invalid Input");
+    }
+    while(l<=u)
+    {
+        printf("Table of %d\n",l);
+        i=1;
+        while(i<=10)
+        {
+            j=l*i;
+            printf("%d*%d=%d\n",l,i,j);
+            i++;
+        }
+        l++;
+    }
+    return 0;
+}
