@@ -174,3 +174,26 @@ int main()
     }
     return 0;
 }
+
+#Program to input intgers and print the square of that integer according to users choice
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,sq;
+    char ch;
+    printf("Do you want to print the square of the number Y/N");
+    scanf("%c",ch);
+    while(ch=='Y' || ch=='y')
+    {
+        printf("Enter any integer:- \n");
+        scanf("%d",&n);
+        sq=n*n;
+        printf("The square of %d is %d\n",n,sq);
+        printf("Do you want to print the square of the number Y/N");
+        scanf("%c",&ch);
+    }
+    return 0;
+}
