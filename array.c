@@ -82,3 +82,23 @@ int main()
     }
     return 0;
 }
+
+#Program to input any 10 integers in an 1D array and find the sum of even and odd integers separately
+
+#include <stdio.h>
+int main()
+{
+    int a[10],i,ev=0,od=0;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the Integers:- \n");
+        scanf("%d",&a[i]);
+        if(a[i]%2==0)
+            ev=ev+a[i];
+        else
+            if(a[i]%2==1)
+            od=od+a[i];
+    }
+    printf("\nThe sum of even and odd numbers are %d %d\n",ev,od);
+    return 0;
+}
