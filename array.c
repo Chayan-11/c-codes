@@ -189,3 +189,21 @@ int main()
    }
     return 0;
 }
+
+#Program to input 10 integers in an 1D array but all the input integers should be positive integers
+
+#include <stdio.h>
+int main()
+{
+    int n[10],i;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the Integers:- \n");
+        scanf("%d",&n[i]);
+        if(n[i]<0)
+            i--;
+    }
+    for(i=0;i<10;i++)
+        printf("%d\n",n[i]);
+    return 0;
+}
