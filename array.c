@@ -38,3 +38,20 @@ int main()
     printf("%f\n",n[i]);
     return 0;
 }  
+
+#program to enter 10 intgers in an 1D array and find sum of the numbers
+
+#include <stdio.h>
+int main()
+{
+   int i,s=0;
+   int n[10];
+   for(i=0;i<10;i++)
+   {
+       printf("Enter the integers:- \n");
+       scanf("%d",&n[i]);
+       s=s+n[i];
+       printf("The sum of the integers is %d\n",s);
+   }
+    return 0;
+}
