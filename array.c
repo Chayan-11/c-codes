@@ -121,3 +121,24 @@ int main()
     printf("%d and %f\n",s,b);
     return 0;
 }
+
+#Program to input 10 float numbers in 1D array and extract the integers and fractional part from each number and store inside to a different float and integers array and print all the arrays
+
+#include <stdio.h>
+int main()
+{
+    int n[10],i;
+    float m[10],p[10];
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the Integers:- \n");
+        scanf("%f",&m[i]);
+        n[i]=m[i];
+        p[i]=m[i]-n[i];
+    }
+    for(i=0;i<10;i++)
+    {
+        printf("%d %f %f",n[i],m[i],p[i]);
+    }
+    return 0;
+}
