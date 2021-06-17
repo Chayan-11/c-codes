@@ -102,3 +102,22 @@ int main()
     printf("\nThe sum of even and odd numbers are %d %d\n",ev,od);
     return 0;
 }
+
+#Program to input 10 float in an 1D array and print the sum of integers and fractional part separately
+
+#include <stdio.h>
+int main()
+{
+    int i,a,s=0;
+    float n[10],b=0;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter float numbers:- \n");
+        scanf("%f",&n[i]);
+        a=n[i];
+        b=b+n[i]-a;
+        s=s+a;
+    }
+    printf("%d and %f\n",s,b);
+    return 0;
+}
