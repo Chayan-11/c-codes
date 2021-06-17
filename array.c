@@ -55,3 +55,30 @@ int main()
    }
     return 0;
 }
+
+#Program to enter 10 integers in an 1D array and count the number of positive, negative, zero, odd and even numbers present inside
+
+#include <stdio.h>
+int main()
+{
+    int a[10],p=0,n=0,z=0,ev=0,odd=0,i;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the Integers:- \n");
+        scanf("%d",&a[i]);
+        if(a[i]>0)
+            p++;
+        else
+            if(a[i]<0)
+            n++;
+        else
+            z++;
+        if(a[i]%2==1)
+            odd++;
+        else
+            if(a[i]%2==0)
+            ev++;
+        printf("%d%d%d%d%d\n",p,n,z,odd,ev);
+    }
+    return 0;
+}
