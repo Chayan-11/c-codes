@@ -163,3 +163,29 @@ int main()
     }
     return 0;
 }
+
+#Progam to input 10 integers in an 1D array and interchange the contents of two 1D array
+
+#include <stdio.h>
+int main()
+{
+   int a[10],b[10],c[10],i;
+   printf("Enter 1st group array:- \n");
+   for(i=0;i<10;i++)
+   {
+       scanf("%d",&a[i]);
+       printf("Enter the 2nd group array:- \n");
+       for(i=0;i<10;i++)
+       {
+           scanf("%d",&b[i]);
+           printf("Enter the 3rd group array:- \n");
+           scanf("%d",&c[i]);
+           a[i]=b[i];
+           b[i]=c[i];
+           c[i]=a[i];
+           printf("First group of array is:- ",a[i]);
+           printf("Second group of array is:- ",b[i]);
+       }
+   }
+    return 0;
+}
