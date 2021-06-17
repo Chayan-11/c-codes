@@ -207,3 +207,23 @@ int main()
         printf("%d\n",n[i]);
     return 0;
 }
+
+#Program to input 10 integers in an 1D array and print the multiplication table of each number
+
+#include <stdio.h>
+int main()
+{
+    int n[10],i,j;
+    for(i=0;i<10;i++)
+    {
+    printf("Enter any Integer:- \n");
+    scanf("%d",&n[i]);
+    }
+    for(i=0;i<10;i++)
+    {
+        printf("Table of %d\n",n[i]);
+        for(j=1;j<=10;j++)
+            printf("%d*%d=%d\n",n[i],j,n[i]*j);
+    }
+    return 0;
+}
