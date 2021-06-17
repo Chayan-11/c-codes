@@ -142,3 +142,24 @@ int main()
     }
     return 0;
 }
+
+#Program to input 10 integers in an 1D array and find the smallest one
+
+#include <stdio.h>
+int main()
+{
+    int n[10],i,s=32767;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the integers:- \n");
+        scanf("%d",n[i]);
+        if(n[i]<s)
+            s=n[i];
+    }
+    for(i=0;i<10;i++)
+    {
+        printf("%d\n",n[i]);
+        printf("%d\n",s);
+    }
+    return 0;
+}
