@@ -5,3 +5,4 @@
 #Day5 - Practiced problems on For-loops, Switch case and functions.
 #Day6 - Practiced problems on while loop and functions along with learned to update the Readme profile of GitHub to create a beautiful landing page of my own profile.
 #Day7 - Took lessons from NESO Academy on Functions theory and practiced problems on While loop and patterns.
+#Day8 - Learned about arrays and practiced few problems on arrays.
