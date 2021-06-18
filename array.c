@@ -227,3 +227,29 @@ int main()
     }
     return 0;
 }
+
+#Program to input 10 integers in an 1D array and search for 1 number where multiple occurence may be there. If not found then print the number is not found
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n[10],i,p=0,item;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter any integers:- \n");
+        scanf("%d",&n[i]);
+    }
+    printf("Enter Item:- ");
+    scanf("%d",&item);
+    for(i=0;i<10;i++)
+        if(n[i]==item)
+    {
+        printf("%d found at location n[%d]\n",item,i);
+        p++;
+    }
+    if(p==0)
+        printf("%d number not found",item);
+    return 0;
+}
