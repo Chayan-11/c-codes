@@ -342,3 +342,31 @@ void main()
         }
     }
 }
+
+#Program to print all the negative elements in an array
+
+ #include <stdio.h>
+ int main()
+{
+    int a[1000],i,n;
+
+    printf("Enter size of the array :- \n");
+    scanf("%d",&n);
+
+    printf("Enter elements in array :- \n");
+    for(i=0; i<n; i++)
+    {
+        scanf("%d",&a[i]);
+    }
+
+    printf("\nAll the negative elements in array are :- \n");
+    for(i=0; i<n; i++)
+    {
+        if(a[i]<0)
+        {
+            printf("%d\t", a[i]);
+        }
+    }
+
+    return 0;
+}
