@@ -174,5 +174,24 @@ int Armstrong_Number(int num) {
    return flag;
 }
 
-     
+#Program to find the sum of n natural numbers using call by value function with return
+
+#include <stdio.h>
+int abc(int);
+int main()
+{
+    int n,a;
+    printf("Enter any Integer:- \n");
+    scanf("%d",&n);
+    a=abc(n);
+    printf("%d",a);
+    return a;
+}
+int abc(int p)
+{
+    int i,s=0;
+    for(i=1;i<=p;i++)
+        s=s+i;
+    return s;
+}
      
