@@ -219,3 +219,34 @@ int abc(int p)
         s=s+i;
     return s;
     }
+
+#Program to input any number and check whether it's armstrong number or not using call by value return
+
+#include <stdio.h>
+int abc(int n,int m)
+{
+    int a,s=0;
+    while(n>0)
+    {
+        a=m%10;
+        s=s+pow(a,m);
+        n=n/10;
+    }
+    return s;
+}
+int main()
+{
+    int n,a,i=0;
+    printf("Enter any integer:- \n");
+    scanf("%d",&a);
+    n=a;
+    while(a>0)
+    {
+        i++;
+        a/=10;
+    }
+    if(n==abc(n,i))
+        printf("It's an Armstrong number");
+    else
+        printf("It's not an Armstrong number");
+}
