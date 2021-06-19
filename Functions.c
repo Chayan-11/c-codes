@@ -195,3 +195,27 @@ int abc(int p)
     return s;
 }
      
+#Program to find whether a number is perfect or not using functions of call by value return
+
+#include <stdio.h>
+int abc(int);
+int main()
+{
+    int n,m;
+    printf("Enter any Integer:- \n");
+    scanf("%d",&n);
+    m=abc(n);
+    if(m==n)
+        printf("It's a perfect number");
+    else
+        printf("It's not a perfect number");
+    return 0;
+}
+int abc(int p)
+{
+    int i,s=0;
+    for(i=1;i<p;i++)
+        if(p%i==0)
+        s=s+i;
+    return s;
+    }
