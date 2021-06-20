@@ -266,3 +266,20 @@ int main()
         int r=p+a;
         printf("%d+%d=%d\n",p,a,r);
     }
+
+#Program to print the multiplication table of any number using function call by value return
+
+#include <stdio.h>
+void mult(int p)
+{
+   for(int i=1;i<=10;i++)
+    printf("%d*%d=%d\n",p,i,p*i);
+}
+   int main()
+   {
+    int n;
+    printf("Enter any Integer:- \n");
+    scanf("%d",&n);
+    mult(n);
+    return 0;
+}
