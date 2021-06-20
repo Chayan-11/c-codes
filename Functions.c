@@ -308,3 +308,26 @@ void abc(int n)
         printf("%d = %d",i,f);
 }
 }
+
+#Program to display the annual scoresheet of 10 students with name and marks obtained along with total and average scored by each student
+
+#include <stdio.h>
+int main()
+{
+    char n[10][20];
+    int p[10],c[10],m[10];
+    int avg[10],i,tot[10];
+    for(i=0;i<10;i++)
+    {
+        printf("Enter your name:- \n");
+        scanf("%s",n[i]);
+        fflush(stdin);
+        printf("Enter your marks:- \n");
+        scanf("%d%d%d",&p[i],&c[i],&m[i]);
+        tot[i]=p[i]+c[i]+m[i];
+        avg[i]=tot[i]/3;
+        fflush(stdin);
+    }
+    for(i=0;i<10;i++)
+        printf("%s\n%d\n%d\n%d\n%d\n%d\n",n[i],p[i],c[i],m[i],tot[i],avg[i]);
+}
