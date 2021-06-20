@@ -250,3 +250,19 @@ int main()
     else
         printf("It's not an Armstrong number");
 }
+
+#Program to find the sum of 2 integers without using call by value return
+
+#include <stdio.h>
+   void abc (int,int);
+   int main()
+   {
+       int a=10,b=20;
+       abc(a,b);
+       return 0;
+   }
+    void abc(int p, int a)
+    {
+        int r=p+a;
+        printf("%d+%d=%d\n",p,a,r);
+    }
