@@ -283,3 +283,28 @@ void mult(int p)
     mult(n);
     return 0;
 }
+
+#Program to calculate the factorial of any input number with series using function call by value without return
+
+#include <stdio.h>
+void abc(int);
+int main()
+{
+ int n;
+ printf("Enter any Integer:- \n");
+ scanf("%d",&n);
+ abc(n);
+ return 0;
+}
+void abc(int n)
+{
+    int i,f=1;
+    for(i=n;i>=1;i--)
+    {
+        f=f*i;
+    if(i>1)
+        printf("%d*",i);
+    else
+        printf("%d = %d",i,f);
+}
+}
