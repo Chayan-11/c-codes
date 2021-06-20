@@ -36,8 +36,6 @@ int main()
 #Program to input any string and find the length of the string without blank spaces
 
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
    char n[100];
