@@ -247,3 +247,23 @@ int main()
         printf("\n");
     }
 }
+
+#Program to input any string and search the frequency of a particular character
+
+#include <stdio.h>
+int main()
+ {
+    char n[1000],ch;
+    int l=0;
+    printf("Enter a string:- \n");
+    fgets(n,sizeof(n),stdin);
+    printf("Enter a character to find its frequency:- \n");
+    scanf("%c", &ch);
+    for(int i=0;n[i]!='\0';++i)
+        {
+        if (ch==n[i])
+            ++l;
+        }
+    printf("Frequency of %c = %d", ch,l);
+    return 0;
+}
