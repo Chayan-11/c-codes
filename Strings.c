@@ -221,3 +221,29 @@ int main()
         printf("\n");
     }
 }
+
+#Program to input any string and print the output in the given format as given below:-
+If input is INDIA then print:-
+    
+A
+II
+DDD
+NNNN
+IIIII
+
+#include <stdio.h>
+int main()
+{
+    char n[100];
+    int i,j,l=0;
+    printf("Enter any string:- \n");
+    scanf("%s",n);
+    for(i=0;n[i]!='\0';i++)
+        l++;
+        for(i=l-1;i>=0;i--)
+    {
+        for(j=l-1;j>=i;j--)
+        printf("%c",n[i]);
+        printf("\n");
+    }
+}
