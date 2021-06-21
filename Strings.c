@@ -195,3 +195,29 @@ int main()
         printf("\n");
     }
 }
+
+#Program to input any string and print the output as per given format:-
+If input is INDIA then print
+
+A
+AI
+AID
+AIDN
+AIDNI
+
+#include <stdio.h>
+int main()
+{
+    char n[100];
+    int i,j,l=0;
+    printf("Enter any string:- \n");
+    scanf("%s",n);
+    for(i=0;n[i]!='\0';i++)
+        l++;
+        for(i=l-1;i>=0;i--)
+    {
+        for(j=l-1;j>=i;j--)
+        printf("%c",n[j]);
+        printf("\n");
+    }
+}
