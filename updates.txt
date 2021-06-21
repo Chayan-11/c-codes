@@ -9,3 +9,4 @@
 #Day9 - Learned about git and github from code for cause YT channel and practiced little problems from array.
 #Day10 - Practiced few problems on arrays and functions. 
 #Day11 - Practiced problems on functions, arrays and strings along with a tutorial on strings from udemy.
+#Day12 - Practiced problems on strings and watched video tutorial on strings from udemy.
