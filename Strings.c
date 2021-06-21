@@ -151,3 +151,22 @@ int main()
     return 0;
 }
 
+#Program to input any string and replace all the vowels by the character 'x'
+
+#include <stdio.h>
+int main()
+{
+ int i;
+ char n[1000];
+ printf("Enter the string:- \n");
+ scanf("%s",n);
+ for(i=0;n[i]!='\0';i++)
+ {
+    if(n[i]=='a' || n[i]=='e' || n[i]=='i' || n[i]=='o' || n[i]=='u' || n[i]=='A' || n[i]=='E' || n[i]=='I' || n[i]=='O' || n[i]=='U')
+    {
+     n[i]='x';
+    }
+ }
+ printf("\nNew String is:- %s\n",n);
+  return 0;
+}
