@@ -170,3 +170,28 @@ int main()
  printf("\nNew String is:- %s\n",n);
   return 0;
 }
+
+#Program to input any string and print the output as per given format:-
+
+If input is INDIA then print
+
+I
+IN
+IND
+INDI
+INDIA
+
+#include <stdio.h>
+int main()
+{
+    char n[1000];
+    int i,j;
+    printf("Enter any string:- \n");
+    gets(n);
+    for(i=0;n[i]!='\0';i++)
+    {
+        for(j=0;j<=i;j++)
+            printf("%c",n[j]);
+        printf("\n");
+    }
+}
