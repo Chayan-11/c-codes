@@ -110,3 +110,24 @@ int main()
    }
     return 0;
 }
+
+#Program to input any string and count how many upper case characters, lower case characters and digits are present in the string
+
+#include <stdio.h>
+int main()
+{
+   int i,u=0,l=0,d=0;
+   char n[1000];
+   printf("Enter the string:- \n");
+   scanf("%s",&n);
+   for(i=0;n[i]!='\0';i++)
+   if(n[i]>=65 && n[i]<=90)
+    u++;
+   else
+    if(n[i]>=97 && n[i]<=122)
+    l++;
+   else
+    if(n[i]>=48 && n[i]<=57)
+    d++;
+   printf("The number of upper case characters are:- %d\n The number of lower case characters are:- %d\n The number of digits are:- %d",u,l,d);
+}
