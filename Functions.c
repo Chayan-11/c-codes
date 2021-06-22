@@ -357,3 +357,19 @@ int main()
     printf("Input character is:- %c",ch);
     return 0;
 }
+
+#Program to print the ASCII value of each character we're pressing in the keyboard.
+
+#include <stdio.h>
+int main()
+{
+   char ch;
+   do
+   {
+       printf("Enter the character:- \n");
+       ch=getchar();
+       printf("%c = %d\n",ch,ch);
+   }
+   while(ch!=27);
+    return 0;
+}
