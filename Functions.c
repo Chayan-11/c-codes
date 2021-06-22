@@ -405,6 +405,11 @@ int main()
     int i;
     printf("Enter the string:- \n");
     gets(n);
-    printf("%s\n",n);
+    for(i=0;n[i]!='\0';i++)
+    {
+        printf("%c",n[i]);
+        if(n[i]==' ')
+        printf("\n");
+    }
     return 0;
 }
