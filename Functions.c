@@ -395,3 +395,16 @@ int main()
    }
     return 0;
 }
+
+#Program to input any multiword string and print each word in different line
+
+#include <stdio.h>
+int main()
+{
+    char n[' '];
+    int i;
+    printf("Enter the string:- \n");
+    gets(n);
+    printf("%s\n",n);
+    return 0;
+}
