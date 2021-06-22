@@ -373,3 +373,25 @@ int main()
    while(ch!=27);
     return 0;
 }
+
+#Program to print the ASCII value of all the characters in the keyboard
+
+#include <stdio.h>
+int main()
+{
+   char ch;
+   int i;
+   do
+   {
+       printf("Enter the character:- \n");
+       ch=getchar();
+       printf("%c = %d\n",ch,ch);
+   }
+   while(ch!=27);
+   while(i<=255)
+   {
+       printf("%c %d",i,i);
+       i++;
+   }
+    return 0;
+}
