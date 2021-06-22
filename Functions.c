@@ -345,3 +345,15 @@ int main()
     printf("Input character is:- %c",ch);
     return 0;
 }   
+
+#Program to demonstrate the function fgetchar()
+
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter the character:- \n");
+    ch=fgetchar();
+    printf("Input character is:- %c",ch);
+    return 0;
+}
