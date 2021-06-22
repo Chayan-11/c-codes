@@ -331,3 +331,17 @@ int main()
     for(i=0;i<10;i++)
         printf("%s\n%d\n%d\n%d\n%d\n%d\n",n[i],p[i],c[i],m[i],tot[i],avg[i]);
 }
+
+#Program to demonstrate the function getchar()
+
+This is an input function through which we can take single character input but the input character will not be displayed in the screen.
+    
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter the character:- \n");
+    ch=getchar();
+    printf("Input character is:- %c",ch);
+    return 0;
+}   
