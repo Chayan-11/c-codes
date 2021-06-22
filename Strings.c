@@ -289,3 +289,44 @@ int main()
         printf("string is not palindrome");
     return 0;
 }
+
+#Program to print the following pattern:-
+
+    1
+   232
+  34543
+ 4567654
+567898765
+        
+#include<stdio.h>
+int main()
+{
+    int n,s,x,y=0,c=0,c1=0;
+    printf("Enter the number of rows to show the number pattern:- \n");
+    scanf("%d",&n);
+    for(x=1;x<=n;++x)
+    {
+        for(s=1;s<=n-x;s++)
+        {
+            printf(" ");
+            ++c;
+        }
+        while(y!=2*x-1)
+        {
+            if(c<=n-1)
+            {
+                printf("%d",x+y);
+                ++c;
+            }
+            else
+            {
+                ++c1;
+            printf("%d",(x+y-2*c1));
+            }
+            ++y;
+        }
+        c1=c=y=0;
+        printf("\n");
+    }
+    return 0;
+}        
