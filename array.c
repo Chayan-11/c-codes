@@ -396,3 +396,20 @@ int main()
     }
     return 0;
 }	
+
+#Program to input 15 integers in a 5x3 matrix and print the sum of the numbers
+
+#include <stdio.h>
+int main()
+{
+    int n[5][3],i,j,s=0;
+    for(i=0;i<5;i++)
+        for(j=0;j<3;j++)
+    {
+        printf("Enter the integers:- \n");
+        scanf("%d",&n[i][j]);
+        s=s+n[i][j];
+    }
+    printf("Total sum is:- %d\n",s);
+    return 0;
+}
