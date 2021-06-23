@@ -11,3 +11,4 @@
 #Day11 - Practiced problems on functions, arrays and strings along with a tutorial on strings from udemy.
 #Day12 - Practiced problems on strings and watched video tutorial on strings from udemy.
 #Day13 - Practiced problems on strings and functions.
+#Day14 - Practiced problems on arrays, strings and patterns.
