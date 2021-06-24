@@ -12,3 +12,4 @@
 #Day12 - Practiced problems on strings and watched video tutorial on strings from udemy.
 #Day13 - Practiced problems on strings and functions.
 #Day14 - Practiced problems on arrays, strings and patterns.
+#Day15 - Practiced problems on functions and created Quiz game on C.
