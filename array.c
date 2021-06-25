@@ -413,3 +413,50 @@ int main()
     printf("Total sum is:- %d\n",s);
     return 0;
 }
+
+#Program to enter the records of 10 students and sort them in descending order
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    char n[10][20], ch[20];
+    int p[10],c[10],m[10],tot[10],ave[10],i,s,j;
+    for(i=0;i<10;i++)
+    {
+        printf("Enter the name:- \n");
+        gets(n[i]);
+        fflush(stdin);
+        printf("Enter the marks:- \n");
+        scanf("%d %d %d",&p[i],&c[i],&m[i]);
+        tot[i]=p[i]+c[i]+m[i];
+        ave[i]=tot[i]/3;
+        fflush(stdin);
+    }
+    for(i=0;i<10;i++)
+        for(j=1;j<9;j++)
+        if(ave[i]<ave[j+1])
+    {
+        s=ave[i];
+        ave[i]=ave[j+1];
+        ave[j+1]=s;
+        s=tot[i];
+        tot[i]=tot[j+1];
+        tot[j+1]=s;
+        s=p[i];
+        p[i]=p[j+1];
+        p[j+1]=s;
+        s=c[i];
+        c[i]=c[j+1];
+        c[j+1]=s;
+        s=m[i];
+        m[i]=m[j+1];
+        m[j+1]=s;
+        strcpy(ch,n[i]);
+        strcpy(n[i],n[j+1]);
+        strcpy(n[j+1],ch);
+    }
+    for(i=0;i<10;i++)
+        printf("%s %d %d %d %d %d\n",n[i],p[i],c[i],m[i],tot[i],ave[i]);
+        return 0;
+}
