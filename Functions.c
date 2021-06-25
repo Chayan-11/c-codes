@@ -541,3 +541,23 @@ void abc (int *p, int *q)
 	*q=*p-*q;
 	*p=*p-*q;
 }
+
+#Program to input any number and check whether it is odd or even using call by reference function
+
+void abc (int*);
+main()
+{
+	int n;
+	printf("Enter Integers:- \n");
+	scanf("%d",&n);
+	abc(&n);
+	if(n)
+	printf("It's Odd");
+	else
+	printf("It's Even");
+	return 0;
+}
+void abc (int*p)
+{
+	*p%=2;
+}
