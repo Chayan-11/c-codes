@@ -523,3 +523,21 @@ void abc (int p, int q)
 	q=p-q;
 	p=p-q;
 }
+
+#Program to interchange the values of two integer variables using function call by reference
+
+void abc (int*,int*);
+int main()
+{
+	int a=10,b=20;
+	printf("a=%d b=%d\n",a,b);
+	abc(&a,&b);
+	printf("a=%d b=%d",a,b);
+	return 0;
+}
+void abc (int *p, int *q)
+{
+	*p=*p+*q;
+	*q=*p-*q;
+	*p=*p-*q;
+}
