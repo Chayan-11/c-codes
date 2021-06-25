@@ -488,3 +488,20 @@ int main()
     else
         printf("It's not an Armstrong number");
 }
+
+#Program to display the sum of two integers using functions and without using call by value and return
+
+#include<stdio.h>
+void abc();
+void main()
+{
+	abc();
+}
+void abc()
+{
+	int a,b,c;
+	printf("Enter two integers:- \n");
+	scanf("%d %d",&a,&b);
+	c=a+b;
+	printf("%d",c);
+}
