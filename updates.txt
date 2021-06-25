@@ -13,3 +13,4 @@
 #Day13 - Practiced problems on strings and functions.
 #Day14 - Practiced problems on arrays, strings and patterns.
 #Day15 - Practiced problems on functions and created Quiz game on C.
+#Day16 - Practiced problems on functions call by value and call by reference and also read documentation on C programming basics from GFG with personalized notes.
