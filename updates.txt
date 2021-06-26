@@ -14,3 +14,4 @@
 #Day14 - Practiced problems on arrays, strings and patterns.
 #Day15 - Practiced problems on functions and created Quiz game on C.
 #Day16 - Practiced problems on functions call by value and call by reference and also read documentation on C programming basics from GFG with personalized notes.
+#Day17 - Read editorials on GFG and got started with CodeForces with watermelon prob and Theatre square prob.
