@@ -18,3 +18,22 @@ int main()
 	p=p+(a[j]*pow(2,j));
 	printf("The equivalent decimal number is:- %d",p);
 }
+
+Number conversion from Decimal to Binary
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n,i=0,a[100],j;
+	printf("Enter the Decimal number:- \n");
+	scanf("%d",&n);
+	while(n>=1)
+	{
+		a[i]=n%2;
+		n=n/2;
+		i++;
+	}
+	for(j=i-1;j>=0;j--)
+	printf("%d",a[j]);
+}
