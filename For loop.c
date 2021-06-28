@@ -191,3 +191,21 @@ Output:-
 8  3
 9  2
 10 1	
+
+Program to calculate the following series:-
+-1+2-3+4-5+6-....................n
+
+#include<stdio.h>
+int main()
+{
+	int i,n,s=0;
+	printf("Enter the value of n:- \n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	if(i%2==0)
+	s=s+i;
+	else 
+	if(i%2==1)
+	s=s-i;
+	printf("%d",s);
+}
