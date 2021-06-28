@@ -13,7 +13,7 @@ Hence, also called as exit controlled loop.
       while(condition);
 
 
-
+Program to print any name n times using do-while loop
 
 #include<stdio.h>
 int main()
@@ -25,6 +25,23 @@ int main()
 	  do
 	  {
 	  	printf("Chayan\n");
+	  	i++;
+		  }	
+		  while(i<=n);
+}
+
+Program to print the multiplication table of any input number 
+
+#include<stdio.h>
+int main()
+{
+	int i=1,n;
+	
+	  printf("Enter any integer:- \n");
+	  scanf("%d",&n);
+	  do
+	  {
+	  	printf("%d*%d=%d\n",n,i,n*i);
 	  	i++;
 		  }	
 		  while(i<=n);
