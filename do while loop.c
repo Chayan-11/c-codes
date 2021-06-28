@@ -104,3 +104,21 @@ int main()
 	  }
 	  while(n>0);
 }
+
+Program to input any number and count the number of digits present
+
+#include<stdio.h>
+int main()
+{
+	int n,a=0;
+	
+	  printf("Enter any number:- \n");
+	  scanf("%d",&n);
+	  do
+	  {
+	  	a++;
+	  	n=n/10;
+	  }
+	  while(n>0);
+	  printf("%d",a);
+}
