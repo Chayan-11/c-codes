@@ -86,3 +86,21 @@ int main()
 	  else
 	  printf("No it's not a perfect number");
 }
+
+Program to input any number and print the digits in reverse order individually
+
+#include<stdio.h>
+int main()
+{
+	int n,a;
+	
+	  printf("Enter any number:- \n");
+	  scanf("%d",&n);
+	  do
+	  {
+	  	a=n%10;
+	  	printf("%d",a);
+	  	n=(int)n/10;
+	  }
+	  while(n>0);
+}
