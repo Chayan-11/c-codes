@@ -460,3 +460,18 @@ int main()
         printf("%s %d %d %d %d %d\n",n[i],p[i],c[i],m[i],tot[i],ave[i]);
         return 0;
 }
+
+Program to input 10 numbers and print them in array
+
+#include<stdio.h>
+int main()
+{
+  int a[10],i;
+  printf("Enter 10 numbers:- \n");
+
+  for(i=0;i<=9;i++)
+  scanf("%d",&a[i]);
+  for(i=0;i<=9;i++)
+  printf("%d\t",a[i]);
+   
+}
