@@ -64,3 +64,25 @@ int main()
 		  while(i<=n);
 		  printf("The sum of n natural number is:- %d",s);
 }
+
+Program to input any number and check whether it is a perfect number or not using do while loop
+
+#include<stdio.h>
+int main()
+{
+	int i=1,n,s=0;
+	
+	  printf("Enter any integer:- \n");
+	  scanf("%d",&n);
+	  do
+	  {
+	  	if(n%i==0)
+	  	s=s+i;
+	  	i++;
+	  }
+	  while(i<=n/2);
+	  if(s==n)
+	  printf("Yes it's a perfect number"); 
+	  else
+	  printf("No it's not a perfect number");
+}
