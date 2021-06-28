@@ -16,3 +16,4 @@
 #Day16 - Practiced problems on functions call by value and call by reference and also read documentation on C programming basics from GFG with personalized notes.
 #Day17 - Read editorials on GFG and got started with CodeForces with watermelon prob and Theatre square prob.
 #Day18 - Read editorials from GFG on variables & keywords and completed 3* on Hackerrank in cpp with a little revision on GitHub from Edureka. 
+#Day19 - Practiced problems on do-while loop and cpp probs on hackerrank and also created a ppt on canva on how to give a nice presentation.
