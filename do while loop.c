@@ -46,3 +46,21 @@ int main()
 		  }	
 		  while(i<=n);
 }
+
+Program to find the sum of first 'n' natural numbers
+
+#include<stdio.h>
+int main()
+{
+	int i=1,n,s=0;
+	
+	  printf("Enter any integer:- \n");
+	  scanf("%d",&n);
+	  do
+	  {
+	  	s=s+i;
+	  	i++;
+		  }	
+		  while(i<=n);
+		  printf("The sum of n natural number is:- %d",s);
+}
