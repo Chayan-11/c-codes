@@ -146,3 +146,33 @@ int main()
 	else
 	printf("It's not a palindrome number");
 }
+
+Program to input any integer and check whether it is Armstrong number or not
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n,b,a,j=0,s=0;
+	printf("Enter any Integer:- \n");
+	scanf("%d",&n);
+	b=n;
+	do
+	{
+		j++;
+		b/=10;
+	}
+	while(b>0);
+	b=n;
+	do
+	{
+		a=b%10;
+		s=s+pow(a,j);
+		b/=10;
+	}
+	while(b>0);
+	if(n==s)
+	printf("It's a Armstrong number");
+	else
+	printf("It's not a Armstrong number");
+}
