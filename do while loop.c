@@ -1,3 +1,5 @@
+do-while:-
+	
 In case of do-while loop it will execute the statements atleast once, afterwards it will check the condition and if it satisfy, it will continue the loop otherwise it will terminate the loop.  
 Hence, also called as exit controlled loop.
   
@@ -121,4 +123,26 @@ int main()
 	  }
 	  while(n>0);
 	  printf("%d",a);
+}
+
+Program to enter any number and check whether it is palindrome or not
+
+#include<stdio.h>
+int main()
+{
+	int n,b,r,s=0;
+	printf("Enter any number:- \n");
+	scanf("%d",&n);
+	b=n;
+	do
+	{
+		r=n%10;
+		s=(s*10)+r;
+		n=n/10;
+	}
+	while(b>0);
+	if(b==s)
+	printf("It's a palindrome number");
+	else
+	printf("It's not a palindrome number");
 }
