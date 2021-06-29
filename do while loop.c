@@ -176,3 +176,28 @@ int main()
 	else
 	printf("It's not a Armstrong number");
 }
+
+Program to display the following pattern using do-while loop:- 
+	
+55555
+333
+1
+
+#include<stdio.h>
+int main()
+{
+	int i=5,j;
+	do
+        {
+	   j=1;
+	do
+	{
+	     printf("%d",i);
+	     j++;
+	}
+	while(j<=i);
+	printf("\n");
+	i-=2;
+        }
+while(i>=1);
+}
