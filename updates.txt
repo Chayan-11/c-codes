@@ -18,3 +18,4 @@
 #Day18 - Read editorials from GFG on variables & keywords and completed 3* on Hackerrank in cpp with a little revision on GitHub from Edureka. 
 #Day19 - Practiced problems on do-while loop and cpp probs on hackerrank and also created a ppt on canva on how to give a nice presentation.
 #Day20 - Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML 
+#Day21 - HTML basics tutorial.
