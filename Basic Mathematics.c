@@ -20,3 +20,17 @@ void main()
     else
         printf("%d is NOT Armstrong",a);
 }
+
+Program to input any number and reverse the number
+
+#include<stdio.h>
+int main()
+{
+  int n,i,r=0;
+  printf("Enter a number:");
+  scanf("%d",&n);
+
+  for(i=n;i>0;i=i/10)
+    r=r*10+i%10;
+   printf("Reverse of a number=%d",r);
+}
