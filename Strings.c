@@ -432,3 +432,19 @@ int main()
 	strcat(n,"Debbarma");
 	printf("%s",n);
 }
+
+Program to copy one string from source to destination
+
+#include<stdio.h>
+int main()
+{
+ char n[]={"Ram"};
+ char m[100],s[100],p[100],q[100];
+ printf("Enter the string:- \n");
+ gets(m);
+ strcpy(s,n);
+ strcpy(p,m);
+ strcpy(q,"Chayan");
+ printf("%s %s %s %s %s",n,m,s,p,q);
+ return 0;
+}
