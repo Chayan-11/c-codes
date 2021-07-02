@@ -448,3 +448,17 @@ int main()
  printf("%s %s %s %s %s",n,m,s,p,q);
  return 0;
 }
+
+Using library functions, Input any string and find the length of the string
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char n[100];
+	int l;
+	printf("Enter string:- \n");
+	gets(n);
+	l=strlen(n);
+	printf("length of %s is %d",n,l);
+}
