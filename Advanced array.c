@@ -57,3 +57,26 @@ int main()
 23 45
 44 12
 */
+
+Program to input 10 float numbers in 1D array and extract integers and fractional part separately from each number and store inside two different integer and float number
+using array and pointers. Print all the arrays.
+	
+#include<stdio.h>
+int main()
+{
+	int n[10],*p,i;
+	float m[10],s[10],*q,*r;
+	p=n;
+	q=m;
+	r=s;
+	for(i=0;i<10;i++)
+	{
+		printf("Enter the float numbers:- \n");
+		scanf("%f",q+i);
+		*(p+i) = *(q+i);
+		*(r+i) = *(q+i) - *(p+i);
+	}
+	for(i=0;i<10;i++)
+	printf("%.2f %d %.2f\n",*(q+i),*(p+i),*(r+i));
+	
+}	
