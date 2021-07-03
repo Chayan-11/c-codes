@@ -462,3 +462,27 @@ int main()
 	l=strlen(n);
 	printf("length of %s is %d",n,l);
 }
+
+Program to count the number of upper case, lower case and digits by entering any string using macro function
+
+#include<stdio.h>
+#define up if (n[i]>=65 && n[i]<=90)
+#define lw if (n[i]>=97 && n[i]<=122)
+#define dig if (n[i]>=47 && n[i]<=58)
+main()
+{
+	char n[' '];
+	int i,u=0,l=0,d=0;
+	printf("Enter any string:- \n");
+	gets(n);
+	for(i=0;n[i]!='\0';i++)
+	{
+		up u++;
+		else
+		lw l++;
+		else
+		dig d++;
+	}
+	printf("%d %d %d\n",u,l,d);
+	return 0;
+}
