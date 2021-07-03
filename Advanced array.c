@@ -1,4 +1,4 @@
-#Program to input 20 integrs in a 4x5 matrix of 1D array and count the number of positive, negative, zeroes, even and odd numbers
+Program to input 20 integrs in a 4x5 matrix of 1D array and count the number of positive, negative, zeroes, even and odd numbers
 
 #include <stdio.h>
 int main()
@@ -25,3 +25,35 @@ int main()
     printf("\n%d %d %d %d %d\n",p,n,z,ev,od);
     return 0;
 }
+
+Program to input 10 integers in 1D array and print the numbers from behind and also copy the numbers from another array from reverse using array and pointers
+
+#include<stdio.h>
+int main()
+{
+	int n[10],m[10],*p,*q,i;                                                            
+	p=n;
+	q=m;
+	for(i=0;i<10;i++)
+	{
+		printf("Enter the integrs:- \n");
+		scanf("%d",p+i);
+		*(q+9-i) = *(p+i);
+	}
+	for(i=0;i<10;i++)
+	printf("%d %d\n",*(p+i),*(q+i));
+	return 0;
+}
+
+/*Sample Output:- 
+12 44
+45 23
+55 26
+65 95
+13 78
+78 13
+95 65
+26 55
+23 45
+44 12
+*/
