@@ -126,3 +126,39 @@ int main()
 	printf("Total number of duplicate elements found in array is:- %d\n",ctr);
 	return 1;
 }
+
+Program to find the unique number element in an array
+
+#include<stdio.h>
+int main()
+{
+	int arr1[100],n,ctr=0;
+	int i,j,k;
+	printf("Enter the number of elements:- \n");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+		printf("Element is:- ");
+		scanf("%d",&arr1[i]);
+	}
+	for(i=0;i<n;i++)
+	{
+		ctr=0;
+		k=n;
+		for(j=0;j<k+1;j++)
+		{
+			if(i!=j)
+			{
+				if(arr1[i] == arr1[j])
+				{
+					ctr++;
+				}
+			}
+		}
+		if(ctr == 0)
+		{
+			printf("The unique number is:- %d",arr1[i]);
+		}
+	}
+	return 0;
+}
