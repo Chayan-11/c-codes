@@ -45,3 +45,15 @@ int main()
 	printf("%d %d\n", a,b);            //           4
 	return 0;
 }
+
+Program to demonstrate input restrictions_Part II
+
+#include <math.h>
+int main()
+{
+	char n[]={"Chayan is in NITA"};
+	printf("%.5s\n",n);       // Output:- Chaya
+	printf("%40.3s\n",n);
+	printf("%40.7s",n);
+	return 0;
+}
