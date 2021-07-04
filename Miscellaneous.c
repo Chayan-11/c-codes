@@ -31,3 +31,17 @@ int main()
 	}
 	return 0;
 }
+
+
+Program to demonstrate input restriction
+
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("Enter any number:- \n");
+	scanf("%3d",&a);                     // Input:- 1234
+	scanf("%2d",&b);                    // Output:- 123
+	printf("%d %d\n", a,b);            //           12
+	return 0;
+}
