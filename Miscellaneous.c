@@ -42,6 +42,6 @@ int main()
 	printf("Enter any number:- \n");
 	scanf("%3d",&a);                     // Input:- 1234
 	scanf("%2d",&b);                    // Output:- 123
-	printf("%d %d\n", a,b);            //           12
+	printf("%d %d\n", a,b);            //           4
 	return 0;
 }
