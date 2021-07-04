@@ -22,3 +22,4 @@
 #Day22 - Problems on strings and learned few HTML tags.
 #Day23 - Practiced problems on basic mathematics and strings 
 #Day24 - Practiced problems on advanced array, pointers and strings
+#Day25 - Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays
