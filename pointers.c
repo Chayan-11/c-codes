@@ -1,6 +1,7 @@
 What is a Pointer?
 
-➡ A pointer is essentially a simple integer variable which holds a memory address that points to a value, instead of holding the actual value itself.
+➡ A pointer is a type of variable which can store the address of another object or a function.
+A pointer is essentially a simple integer variable which holds a memory address that points to a value, instead of holding the actual value itself.
 The computer memory is a sequential store of data and a pointer points to a specific part of the memory.
 Our program can use pointers in such a way that the pointers point to a large amount of memory, depending on how much we decide to read from that point on.
 
