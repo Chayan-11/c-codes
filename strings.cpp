@@ -1,4 +1,4 @@
-Program to reverse a given string using functions
+1) Program to reverse a given string using functions
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -14,7 +14,7 @@ int main(void)
 	return 0;
 }
 
-Program to reverse a string using reverse() function 
+2) Program to reverse a string using reverse() function 
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -27,3 +27,21 @@ int main()
 }   
 	   
 
+3) Program to reverse a string using functions
+
+#include<bits/stdc++.h>
+using namespace std;
+void reverseStr(string& Str)
+{
+   int n = Str.length();
+   for(int i=0;i<n/2;i++)
+   swap(Str[i],Str[n-i-1]);	//swaping the characters starting from the two corners
+}
+
+int main()
+{
+	string Str = "LearningALanguage";
+	reverseStr(Str); 
+	cout<<Str;
+	return 0;
+}
