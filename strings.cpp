@@ -45,3 +45,42 @@ int main()
 	cout<<Str;
 	return 0;
 }
+
+4) Program to change every letter in a given string with the letter following it in the alphabet // (i.e. a becomes b, p becomes q, z becomes a and so on)
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+string letterexchange(string str) 
+{
+    int char_code;
+	
+	for (int x = 0; x < str.length(); x++)
+	{
+		char_code = int(str[x]);
+
+		if (char_code == 122)
+		{
+			str[x] = char(97);
+		}
+		else if (char_code == 90)
+		{
+			str[x] = char(65);
+		}
+		else if (char_code >= 65 && char_code <= 90 || char_code >= 97 && char_code <= 122)
+		{
+			str[x] = char(char_code + 1);
+		}
+	
+	}
+
+	return str;
+}
+
+int main() 
+{
+	cout << "Original String was: Learning"; 
+	cout << "\nNew String is:- " << letterexchange("Learning");
+	return 0;
+}
