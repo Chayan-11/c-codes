@@ -21,7 +21,9 @@ using namespace std;
 int main()
 {
 	string str = "LearningALanguage";
-	reverse(str.begin(),str.end());    //using reverse() in-built function
-	cout<<str;
-	return 0;
-}
+	reverse(str.begin(),str.end());  //Using inbuilt “reverse” function: There is a direct function in “algorithm” header file for doing reverse
+        cout<<str;                      // Reverses elements in [begin, end]
+	return 0;                      //void reverse (BidirectionalIterator begin, BidirectionalIterator end);
+}   
+	   
+
