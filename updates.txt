@@ -25,3 +25,4 @@
 #Day25 - Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays
 #Day26 - Practiced only few problems with functions and pointers. 
 #Day27 - Theoretical knowledge on pointers.
+#Day28 - Started with basic problems of Strings in cpp.
