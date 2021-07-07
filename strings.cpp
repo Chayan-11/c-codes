@@ -9,7 +9,19 @@ void reverse(string str)    //using functions
 }
 int main(void)
 {
-	string s="GeeksforGeeks";
+	string s="LearningALanguage";
 	reverse(s);
+	return 0;
+}
+
+Program to reverse a string using reverse() function 
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	string str = "LearningALanguage";
+	reverse(str.begin(),str.end());    //using reverse() in-built function
+	cout<<str;
 	return 0;
 }
