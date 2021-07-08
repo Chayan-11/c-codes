@@ -51,7 +51,6 @@ int main()
 #include<iostream>
 #include<string>
 using namespace std;
-
 string letterexchange(string str) 
 {
     int char_code;
@@ -82,5 +81,33 @@ int main()
 {
 	cout << "Original String was: Learning"; 
 	cout << "\nNew String is:- " << letterexchange("Learning");
+	return 0;
+}
+
+Program to capitalize first letter of each word of a given string
+
+#include <iostream>
+#include <string>
+using namespace std;
+string Capitalize_first_letter(string text) 
+{
+   for (int x = 0; x < text.length(); x++)
+	{
+	        if (x == 0)
+		{
+			text[x] = toupper(text[x]);
+		}
+		else if (text[x-1] == ' ')
+		{
+			text[x] = toupper(text[x]);
+		}
+	}
+          return text;
+}
+
+int main() 
+{
+	cout << Capitalize_first_letter("what's your learning curve?");
+	cout << "\n" << Capitalize_first_letter("code daily to sharpen your mind");
 	return 0;
 }
