@@ -111,3 +111,44 @@ int main()
 	cout << "\n" << Capitalize_first_letter("code daily to sharpen your mind");
 	return 0;
 }
+
+Program to find the largest word in a given string
+
+#include <iostream>
+using namespace std;
+string longestWordInSentence(string str) {
+    int words = 0;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == ' ') {
+            words++;
+        }
+    }
+    words += 1;  // words = 5
+    string strWords[words];
+    short counter = 0;
+    for (short i = 0; i < str.length(); i++) {
+        strWords[counter] += str[i];
+        if (str[i] == ' ') {
+            counter++;
+        }
+    }
+    int sizeArray = sizeof(strWords) / sizeof(strWords[0]);  
+
+    int longest = strWords[0].length(); 
+    string longestWord = "";           
+
+    for (int i = 0; i < sizeArray; i++) {  
+        if (strWords[i].length() > longest) {
+            longest = strWords[i].length();
+            longestWord = strWords[i];  
+        }
+    }
+
+    return longestWord; 
+}
+
+int main() {
+    string x = "I love solving algorithms";
+    cout << longestWordInSentence(x);
+    return 0;
+}
