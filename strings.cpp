@@ -84,7 +84,7 @@ int main()
 	return 0;
 }
 
-Program to capitalize first letter of each word of a given string
+5) Program to capitalize first letter of each word of a given string
 
 #include <iostream>
 #include <string>
@@ -112,7 +112,7 @@ int main()
 	return 0;
 }
 
-Program to find the largest word in a given string
+6) Program to find the largest word in a given string
 
 #include <iostream>
 using namespace std;
