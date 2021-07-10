@@ -1,6 +1,7 @@
 do-while:-
 	
-In case of do-while loop it will execute the statements atleast once, afterwards it will check the condition and if it satisfy, it will continue the loop otherwise it will terminate the loop.  
+In case of do-while loop it will execute the statements atleast once, afterwards it will check the condition and if it satisfy, 
+it will continue the loop otherwise it will terminate the loop.  
 Hence, also called as exit controlled loop.
   
   Syntax:- 
@@ -213,9 +214,25 @@ scanf("%d",&n);
 i=0;
 do      
 {
-printf("the numbers are %d \n",i);
-i=i+1;
+    printf("the numbers are %d \n",i);
+    i=i+1;
 } 
   while(i<=n);
+}
 
+Program to input any number upto n and print it in descending order 
+
+#include<stdio.h> 
+int main()
+{
+  int i=1,n;
+  printf("Enter the number:- \n");
+  scanf("%d",&n);
+  i=n;
+  do
+  {
+     printf("%d\t",i);
+     i--;
+  }
+     while(i>=1);
 }
