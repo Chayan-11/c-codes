@@ -201,3 +201,21 @@ int main()
         }
 while(i>=1);
 }
+
+Program to enter any number upto n and print it in ascending order
+
+include <stdio.h>
+int main()
+{
+int i,n;
+printf("Enter the number:- \n");
+scanf("%d",&n); 
+i=0;
+do      
+{
+printf("the numbers are %d \n",i);
+i=i+1;
+} 
+  while(i<=n);
+
+}
