@@ -29,3 +29,4 @@
 #Day29 - Solved problems of Strings in cpp.
 #Day30 - Remaining problems on strings 
 #Day31 - Practiced problems on basic programs of cpp and do-while loop using c 
+#Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis 
