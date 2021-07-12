@@ -1,4 +1,4 @@
-#Program to input 10 float numbers in an 1-D array and print the numbers in forward and reverse direction
+Program to input 10 float numbers in an 1-D array and print the numbers in forward and reverse direction
 Output:- 
   
 1.000000
@@ -39,7 +39,7 @@ int main()
     return 0;
 }  
 
-#program to enter 10 intgers in an 1D array and find sum of the numbers
+program to enter 10 intgers in an 1D array and find sum of the numbers
 
 #include <stdio.h>
 int main()
@@ -56,7 +56,7 @@ int main()
     return 0;
 }
 
-#Program to enter 10 integers in an 1D array and count the number of positive, negative, zero, odd and even numbers present inside
+Program to enter 10 integers in an 1D array and count the number of positive, negative, zero, odd and even numbers present inside
 
 #include <stdio.h>
 int main()
@@ -83,7 +83,7 @@ int main()
     return 0;
 }
 
-#Program to input any 10 integers in an 1D array and find the sum of even and odd integers separately
+Program to input any 10 integers in an 1D array and find the sum of even and odd integers separately
 
 #include <stdio.h>
 int main()
@@ -103,7 +103,7 @@ int main()
     return 0;
 }
 
-#Program to input 10 float in an 1D array and print the sum of integers and fractional part separately
+Program to input 10 float in an 1D array and print the sum of integers and fractional part separately
 
 #include <stdio.h>
 int main()
@@ -122,7 +122,8 @@ int main()
     return 0;
 }
 
-#Program to input 10 float numbers in 1D array and extract the integers and fractional part from each number and store inside to a different float and integers array and print all the arrays
+Program to input 10 float numbers in 1D array and extract the integers and fractional part from each number and store inside to a different float
+and integers array and print all the arrays
 
 #include <stdio.h>
 int main()
@@ -143,7 +144,7 @@ int main()
     return 0;
 }
 
-#Program to input 10 integers in an 1D array and find the smallest one
+Program to input 10 integers in an 1D array and find the smallest one
 
 #include <stdio.h>
 int main()
@@ -164,7 +165,7 @@ int main()
     return 0;
 }
 
-#Progam to input 10 integers in an 1D array and interchange the contents of two 1D array
+Progam to input 10 integers in an 1D array and interchange the contents of two 1D array
 
 #include <stdio.h>
 int main()
@@ -190,7 +191,7 @@ int main()
     return 0;
 }
 
-#Program to input 10 integers in an 1D array but all the input integers should be positive integers
+Program to input 10 integers in an 1D array but all the input integers should be positive integers
 
 #include <stdio.h>
 int main()
@@ -208,7 +209,7 @@ int main()
     return 0;
 }
 
-#Program to input 10 integers in an 1D array and print the multiplication table of each number
+Program to input 10 integers in an 1D array and print the multiplication table of each number
 
 #include <stdio.h>
 int main()
@@ -228,7 +229,7 @@ int main()
     return 0;
 }
 
-#Program to input 10 integers in an 1D array and search for 1 number where multiple occurence may be there. If not found then print the number is not found
+Program to input 10 integers in an 1D array and search for 1 number where multiple occurence may be there. If not found then print the number is not found
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -254,7 +255,7 @@ int main()
     return 0;
 }
 
-#Program to print all the unique elements in an array
+Program to print all the unique elements in an array
 
 #include <stdio.h>
 int main()
@@ -293,7 +294,7 @@ int main()
        printf("\n\n");
 }
 
-#Program to count the frequency of each element of an array
+Program to count the frequency of each element of an array
 
 #include <stdio.h>
 
@@ -343,7 +344,7 @@ void main()
     }
 }
 
-#Program to print all the negative elements in an array
+Program to print all the negative elements in an array
 
  #include <stdio.h>
  int main()
@@ -371,7 +372,7 @@ void main()
     return 0;
 }
 
-#Program to initialize 20 integers in a 4x5 matrix and print the numbers in matrix format
+Program to initialize 20 integers in a 4x5 matrix and print the numbers in matrix format
 
 output:-
 	
@@ -397,7 +398,7 @@ int main()
     return 0;
 }	
 
-#Program to input 15 integers in a 5x3 matrix and print the sum of the numbers
+Program to input 15 integers in a 5x3 matrix and print the sum of the numbers
 
 #include <stdio.h>
 int main()
@@ -414,7 +415,7 @@ int main()
     return 0;
 }
 
-#Program to enter the records of 10 students and sort them in descending order
+Program to enter the records of 10 students and sort them in descending order
 
 #include <stdio.h>
 #include <math.h>
@@ -474,4 +475,23 @@ int main()
   for(i=0;i<=9;i++)
   printf("%d\t",a[i]);
    
+}
+
+Program to enter subject marks and find the sum of the total marks obtained
+
+#include<stdio.h>
+void main()
+{
+  int sub[5],i,sum=0;
+  printf("Enter marks of 5 subjects:- \n");
+  for(i=0;i<=4;i++)
+  {
+    scanf("%d",&sub[i]);
+    sum=sum+sub[i];
+  }
+  
+  printf("Elements are:- \n");
+  for(i=0;i<=4;i++)
+    printf("%d\t",sub[i]);
+  printf("Sum is =%d",sum);
 }
