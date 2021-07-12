@@ -209,3 +209,15 @@ int main()
 	s=s-i;
 	printf("%d",s);
 }
+
+Program to find the sum of all odd numbers from 1 to n
+#include<stdio.h>
+int main()
+{
+  int n,i,s=0;
+  printf("Enter a number:- \n");
+  scanf("%d",&n);
+  for(i=1;i<=n;i+=2)
+      s=s+i;
+  printf("Sum of all odd numbers are = %d",s);
+}
