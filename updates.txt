@@ -30,3 +30,4 @@
 #Day30 - Remaining problems on strings 
 #Day31 - Practiced problems on basic programs of cpp and do-while loop using c 
 #Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis 
+#Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5 
