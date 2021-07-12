@@ -245,3 +245,24 @@ int main()
     printf("%d",s);
     return 0;
 }
+
+Program to find the sum of first and last digit of the inputed number
+
+#include<stdio.h>
+int main()
+{
+  int n,i,fd,ld,s=0;
+  printf("Enter a number:");
+  scanf("%d",&n);
+  i=n;
+  ld=n%10;
+
+  while(i>0)
+  {
+    if(i/10==0)
+    fd=i%10;
+    i=i/10;
+  }
+  s=ld+fd;
+  printf("Sum of first and last digit of the number is = %d",s);
+}
