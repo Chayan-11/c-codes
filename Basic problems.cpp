@@ -98,3 +98,20 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to check number is Even or Odd
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter a Number:- ";
+    cin>>n;
+    if(n%2==0)
+        cout<<"\nIt is an Even Number.";
+    else
+        cout<<"\nIt is an Odd Number.";
+    cout<<endl;
+    return 0;
+}
