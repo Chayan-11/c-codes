@@ -17,18 +17,18 @@
 #Day17 - Read editorials on GFG and got started with CodeForces with watermelon prob and Theatre square prob.
 #Day18 - Read editorials from GFG on variables & keywords and completed 3* on Hackerrank in cpp with a little revision on GitHub from Edureka. 
 #Day19 - Practiced problems on do-while loop and cpp probs on hackerrank and also created a ppt on canva on how to give a nice presentation.
-#Day20 - Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML 
+#Day20 - Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML. 
 #Day21 - HTML basics tutorial.
 #Day22 - Problems on strings and learned few HTML tags.
-#Day23 - Practiced problems on basic mathematics and strings 
-#Day24 - Practiced problems on advanced array, pointers and strings
-#Day25 - Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays
+#Day23 - Practiced problems on basic mathematics and strings. 
+#Day24 - Practiced problems on advanced array, pointers and strings.
+#Day25 - Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays.
 #Day26 - Practiced only few problems with functions and pointers. 
 #Day27 - Theoretical knowledge on pointers.
 #Day28 - Started with basic problems of Strings in cpp.
 #Day29 - Solved problems of Strings in cpp.
-#Day30 - Remaining problems on strings 
-#Day31 - Practiced problems on basic programs of cpp and do-while loop using c 
-#Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis 
-#Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5 
-#Day34 - HTML5 tutorial 
+#Day30 - Remaining problems on strings.
+#Day31 - Practiced problems on basic programs of cpp and do-while loop using c. 
+#Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis.
+#Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5. 
+#Day34 - HTML5 tutorial and practiced basic cpp programs.
