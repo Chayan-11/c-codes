@@ -227,3 +227,23 @@ float perOfSquare(float l)
 {
     return (4*l);
 }
+
+Program to find the area of a square using functions
+
+#include<iostream>
+using namespace std;
+float areaOfSquare(float);
+int main()
+{
+    float l,area;
+    cout<<"Enter the Length of Square:- \n";
+    cin>>l;
+    area = areaOfSquare(l);
+    cout<<"\nArea = "<<area;
+    cout<<endl;
+    return 0;
+}
+float areaOfSquare(float l)
+{
+    return (l*l);
+}
