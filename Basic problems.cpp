@@ -170,3 +170,25 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to find the arithmetic mean of user input numbers
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i;
+    float arr[50],s=0,mean;
+    cout<<"How many numbers you want to enter:- ";
+    cin>>n;
+    cout<<"\nEnter "<<n<<" Number:- ";
+    for(i=0; i<n; i++)
+    {
+        cin>>arr[i];
+        s=s+arr[i];
+    }
+    mean = s/n;
+    cout<<"\nArithmetic Mean = "<<mean;
+    cout<<endl;
+    return 0;
+}
