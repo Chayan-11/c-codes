@@ -208,3 +208,22 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to find the perimeter of a square using functions
+
+#include<iostream>
+using namespace std;
+float perOfSquare(float);
+int main()
+{
+    float l;
+    cout<<"Enter the Length of Square:- \n";
+    cin>>l;
+    cout<<"\nPerimeter = "<<perOfSquare(l);
+    cout<<endl;
+    return 0;
+}
+float perOfSquare(float l)
+{
+    return (4*l);
+}
