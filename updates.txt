@@ -32,4 +32,4 @@
 #Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis.
 #Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5. 
 #Day34 - HTML5 tutorial and practiced basic cpp programs.
-#Day35 - Learning HTML tags
+#Day35 - Learning HTML tags and practiced basic cpp programs
