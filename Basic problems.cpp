@@ -266,3 +266,25 @@ float perOfRectangle(float l, float b)
 {
     return (2*(l+b));
 }
+
+Program to find the area of rectangle using functions
+
+#include<iostream>
+using namespace std;
+float areaOfRectangle(float, float);
+int main()
+{
+    float l,b,a;
+    cout<<"Enter Length of Rectangle:- \n";
+    cin>>l;
+    cout<<"Enter Breadth of Rectangle:- \n";
+    cin>>b;
+    a = areaOfRectangle(l, b);
+    cout<<"\nArea = "<<a;
+    cout<<endl;
+    return 0;
+}
+float areaOfRectangle(float l, float b)
+{
+    return (l*b);
+}
