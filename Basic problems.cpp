@@ -247,3 +247,22 @@ float areaOfSquare(float l)
 {
     return (l*l);
 }
+
+Program to find the perimeter of a rectangle using functions
+
+#include<iostream>
+using namespace std;
+float perOfRectangle(float, float);
+int main()
+{
+    float l,b;
+    cout<<"Enter Length and Breadth of Rectangle:- \n";
+    cin>>l>>b;
+    cout<<"\nPerimeter = "<<perOfRectangle(l,b);
+    cout<<endl;
+    return 0;
+}
+float perOfRectangle(float l, float b)
+{
+    return (2*(l+b));
+}
