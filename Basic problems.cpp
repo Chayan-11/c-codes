@@ -288,3 +288,25 @@ float areaOfRectangle(float l, float b)
 {
     return (l*b);
 }
+
+Program to convert fahrenheit to celsius using user defined functions 
+
+#include<iostream>
+using namespace std;
+float FahrenheitToCelsius(float);
+int main()
+{
+    float f,c;
+    cout<<"Enter the Temperature in Fahrenheit:- \n";
+    cin>>f;
+    c = FahrenheitToCelsius(f);
+    cout<<endl<<f<<"\370F = "<<c<<"\370C";
+    cout<<endl;
+    return 0;
+}
+float FahrenheitToCelsius(float fa)
+{
+    float c;
+    c = (fa-32)/1.8;
+    return c;
+}
