@@ -177,3 +177,26 @@ int main() {
 		cout << Vowel_Count("After eagling the Road Hole on Thursday, he missed an 8-footer for birdie Friday.") << endl;
         return 0;
 }
+
+Program to print the ASCII value of all the characters in a string
+
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    char ch,s[200];
+    int i=0,v;
+    cout<<"Enter the String:- \n";
+    gets(s);
+    cout<<"\nCharacter\t\tASCII Value\n";
+    while(s[i])
+    {
+        ch = s[i];
+        v = ch;
+        cout<<ch<<"\t\t\t"<<v<<endl;
+        i++;
+    }
+    cout<<endl;
+    return 0;
+}
