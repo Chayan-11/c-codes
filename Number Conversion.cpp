@@ -41,3 +41,31 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert Decimal number to Hexadecimal number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int d_n,r,i=0;
+    char h_n[50];
+    cout<<"Enter the Decimal Number:- \n";
+    cin>>d_n;
+    while(d_n!=0)
+    {
+        r=d_n%16;
+        if(r<10)
+            r=r+48;
+        else
+            r=r+55;
+        h_n[i]=r;
+        i++;
+        d_n=d_n/16;
+    }
+    cout<<"\nEquivalent Hexadecimal Value:- \n";
+    for(i=i-1;i>=0;i--)
+        cout<<h_n[i];
+    cout<<endl;
+    return 0;
+}
