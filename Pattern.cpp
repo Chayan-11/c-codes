@@ -75,3 +75,23 @@ int main()
     cout<<endl;
     return 0;
 }
+                                 // OR 
+                        //use the following code
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,s,j;
+    for(i=1;i<=6;i++)
+    {
+        for(s=6;s>i;s--)
+            cout<<" ";
+        for(j=0;j<i;j++)
+            cout<<"* ";
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
+
