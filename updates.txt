@@ -33,3 +33,4 @@
 #Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5. 
 #Day34 - HTML5 tutorial and practiced basic cpp programs.
 #Day35 - Learning HTML tags and practiced basic cpp programs
+#Day36 - HTML tutorial and edited Readme profile, Also practiced basic cpp programs
