@@ -1,4 +1,4 @@
-Print the half-pyramid pattern of stars
+Print the half-pyramid pattern using stars
 
 *
 * *
@@ -15,6 +15,30 @@ int main()
     for(i=0;i<6;i++)
     {
         for(j=0;j<=i;j++)
+            cout<<"* ";
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
+
+Print the inverted half-pyramid pattern using stars
+
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j;
+    for(i=0;i<6;i++)
+    {
+        for(j=i;j<6;j++)
             cout<<"* ";
         cout<<endl;
     }
