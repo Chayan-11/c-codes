@@ -90,3 +90,41 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert binary number to octal number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int b_n,od=0,o_n[20];
+    int i=0,m=1,ck=1,r;
+    cout<<"Enter the Binary Number:- \n";
+    cin>>b_n;
+    while(b_n!=0)
+    {
+        r=b_n%10;
+        od=od+(r*m);
+        if(ck%3==0)
+        {
+            o_n[i]=od;
+            m=1;
+            od=0;
+            ck=1;
+            i++;
+        }
+        else
+        {
+            m=m*2;
+            ck++;
+        }
+        b_n=b_n/10;
+    }
+    if(ck!=1)
+        o_n[i]=od;
+    cout<<"\nEquivalent Octal Value:-  ";
+    for(i=i; i>=0; i--)
+        cout<<o_n[i];
+    cout<<endl;
+    return 0;
+}
