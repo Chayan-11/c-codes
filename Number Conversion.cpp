@@ -69,3 +69,24 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert binary number to decimal number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int b_n,d_n=0,i=1,r;
+    cout<<"Enter any Binary Number:- \n";
+    cin>>b_n;
+    while(b_n!=0)
+    {
+        r=b_n%10;
+        d_n= d_n+(r*i);
+        i=i*2;
+        b_n=b_n/10;
+    }
+    cout<<"\nEquivalent Decimal Value = "<<d_n;
+    cout<<endl;
+    return 0;
+}
