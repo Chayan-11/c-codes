@@ -122,3 +122,30 @@ int main()
     cout<<endl;
     return 0;
 }    
+
+Print star pattern that looks like triangle or half-pyramid
+
+          *
+        * *
+      * * *
+    * * * *
+  * * * * *
+* * * * * *
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,s=10;
+    for(i=0;i<6;i++)
+    {
+        for(j=0;j<s;j++)
+            cout<<" ";
+        s=s-2;
+        for(j=0;j<=i;j++)
+            cout<<"* ";
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
