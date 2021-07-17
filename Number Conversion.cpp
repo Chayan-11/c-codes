@@ -128,3 +128,46 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert Binary number to Hexadecimal number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int b_n,hex=0,m=1,ck=1,r,i=0;
+    char h_n[20];
+    cout<<"Enter any Binary Number:- \n";
+    cin>>b_n;
+    while(b_n!=0)
+    {
+        r=b_n%10;
+        hex=hex+(r*m);
+        if(ck%4==0)
+        {
+            if(hex<10)
+                h_n[i]=hex+48;
+            else
+                h_n[i]=hex+55;
+            m=1;
+            hex=0;
+            ck=1;
+            i++;
+        }
+        else
+        {
+            m=m*2;
+            ck++;
+        }
+        b_n=b_n/10;
+    }
+    if(ck!=1)
+        h_n[i]=hex+48;
+    if(ck==1)
+        i--;
+    cout<<"\nEquivalent number in Hexadecimal:- ";
+    for(i=i; i>=0; i--)
+        cout<<h_n[i];
+    cout<<endl;
+    return 0;
+}
