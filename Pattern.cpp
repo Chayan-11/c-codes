@@ -175,3 +175,31 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Print the following pattern of numbers
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+    
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n;
+    for(i=0;i<6;i++)
+    {
+        n=1;
+        for(j=0;j<=i;j++)
+        {
+            cout<<n<<" ";
+            n++;
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}    
