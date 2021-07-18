@@ -193,3 +193,50 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert octal number to binary number
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int o_n,rev=0,rem;
+    cout<<"Enter the Octal Number:- \n";
+    cin>>o_n;
+    while(o_n!=0)
+    {
+        rem=o_n%10;
+        rev=(rev*10)+rem;
+        o_n=o_n/10;
+    }
+    o_n=rev;
+    cout<<"\nEquivalent Binary Value:- ";
+    while(o_n!=0)
+    {
+        rem=o_n%10;
+        switch(rem)
+        {
+            case 0: cout<<"000";
+                break;
+            case 1: cout<<"001";
+                break;
+            case 2: cout<<"010";
+                break;
+            case 3: cout<<"011";
+                break;
+            case 4: cout<<"100";
+                break;
+            case 5: cout<<"101";
+                break;
+            case 6: cout<<"110";
+                break;
+            case 7: cout<<"111";
+                break;
+            default: cout<<"--Invalid Octal Digit("<<rem<<")--";
+                break;
+        }
+        o_n=o_n/10;
+    }
+    cout<<endl;
+    return 0;
+}
