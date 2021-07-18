@@ -149,3 +149,29 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Print Pyramid Pattern of Stars in given size
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,s,r_s,k=0;
+    cout<<"Enter the Number of Rows:- \n";
+    cin>>r_s;
+    cout<<"\nPyramid of "<<r_s<<" Rows or Lines:\n";
+    for(i=1;i<=r_s;i++)
+    {
+        for(s=1;s<=(r_s-i);s++)
+            cout<<"  ";
+        while(k!=(2*i-1))
+        {
+            cout<<"* ";
+            k++;
+        }
+        k=0;
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
