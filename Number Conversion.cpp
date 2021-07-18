@@ -171,3 +171,25 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Program to convert octal number to decimal number
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int o_n,d_n=0,i=0,r;
+    cout<<"Enter the Octal Number:- \n";
+    cin>>o_n;
+    while(o_n!=0)
+    {
+        r=o_n%10;
+        d_n=d_n+(r*pow(8,i));
+        i++;
+        o_n=o_n/10;
+    }
+    cout<<"\nEquivalent Decimal Value:- "<<d_n;
+    cout<<endl;
+    return 0;
+}
