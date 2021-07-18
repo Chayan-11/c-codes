@@ -203,3 +203,30 @@ int main()
     cout<<endl;
     return 0;
 }    
+
+Print the following pattern of numbers
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+16 17 18 19 20 21
+    
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,n=1;
+    for(i=0;i<6;i++)
+    {
+        for(j=0;j<=i;j++)
+        {
+            cout<<n<<" ";
+            n++;
+        }
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}    
