@@ -37,3 +37,4 @@
 #Day37 - HTML tutorial and practicing cpp problems from patterns and number conversion.
 #Day38 - HTML5 tutorial and practised pattern problems in cpp.
 #Day39 - Created Forms using HTML and practiced basic cpp programs on patterns and number conversion.
+#Day40 - Created unordered, ordered and definitive lists in HTML and practiced patterns program in cpp. Learning HTML too.
