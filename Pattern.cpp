@@ -230,3 +230,46 @@ int main()
     cout<<endl;
     return 0;
 }    
+
+Print the following diamond pattern of stars
+
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,r,s;
+    cout<<"Enter the Number of Rows:- \n";
+    cin>>r;
+    s=r-1;
+    for(i=1;i<=r;i++)
+    {
+        for(j=1;j<=s;j++)
+            cout<<" ";
+            s--;
+        for(j=1;j<=(2*i-1);j++)
+            cout<<"*";
+        cout<<endl;
+    }
+        s=1;
+    for(i=1;i<=(r-1);i++)
+    {
+        for(j=1;j<=s;j++)
+            cout<<" ";
+            s++;
+        for(j=1;j<=(2*(r-i)-1);j++)
+            cout<<"*";
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
