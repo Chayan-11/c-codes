@@ -324,3 +324,36 @@ int main()
     cout<<endl;
     return 0;
 }
+
+Print pascal triangle pattern using functions 
+
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+    
+#include<iostream>
+using namespace std;
+long int fact(int);
+int main()
+{
+    int i,c;
+    for(i=0; i<5; i++)
+    {
+        for(c=4; c>i; c--)
+            cout<<" ";
+        for(c=0; c<=i; c++)
+            cout<<fact(i)/(fact(c)*fact(i-c))<<" ";
+        cout<<endl;
+    }
+    cout<<endl;
+    return 0;
+}
+long int fact(int n)
+{
+    int i,f=1;
+    for(i=1; i<=n; i++)
+        f=f*i;
+    return f;
+}    
