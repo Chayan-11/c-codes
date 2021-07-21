@@ -39,3 +39,4 @@
 #Day39 - Created Forms using HTML and practiced basic cpp programs on patterns and number conversion.
 #Day40 - Created unordered, ordered and definitive lists in HTML and practiced patterns program in cpp. Learning HTML too.
 #Day41 - HTML5 tutorial learned from Sololearn and creating some demonstrations regarding the same.
+#Day42 - Learning to create web page using HTML5 and practiced some miscellaneous topics on cpp along with adobe xd tutorial. 
