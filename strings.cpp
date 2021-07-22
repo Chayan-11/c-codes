@@ -1,4 +1,4 @@
-1) Program to reverse a given string using functions
+Program to reverse a given string using functions
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -14,7 +14,8 @@ int main(void)
 	return 0;
 }
 
-2) Program to reverse a string using reverse() function 
+
+Program to reverse a string using reverse() function 
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -27,7 +28,7 @@ int main()
 }   
 	   
 
-3) Program to reverse a string using functions
+Program to reverse a string using functions
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -46,7 +47,8 @@ int main()
 	return 0;
 }
 
-4) Program to change every letter in a given string with the letter following it in the alphabet // (i.e. a becomes b, p becomes q, z becomes a and so on)
+
+Program to change every letter in a given string with the letter following it in the alphabet // (i.e. a becomes b, p becomes q, z becomes a and so on)
 
 #include<iostream>
 #include<string>
@@ -84,7 +86,8 @@ int main()
 	return 0;
 }
 
-5) Program to capitalize first letter of each word of a given string
+
+Program to capitalize first letter of each word of a given string
 
 #include <iostream>
 #include <string>
@@ -112,7 +115,8 @@ int main()
 	return 0;
 }
 
-6) Program to find the largest word in a given string
+
+Program to find the largest word in a given string
 
 #include <iostream>
 using namespace std;
@@ -153,7 +157,8 @@ int main() {
     return 0;
 }
 
-7) Program to count all the vowels in a given string
+
+Program to count all the vowels in a given string
 
 #include <iostream>
 using namespace std;
@@ -178,6 +183,7 @@ int main() {
         return 0;
 }
 
+
 Program to print the ASCII value of all the characters in a string
 
 #include<iostream>
@@ -201,6 +207,7 @@ int main()
     return 0;
 }
 
+
 Program to print the ASCII value of all the characters 
 
 #include<iostream>
@@ -218,6 +225,7 @@ int main()
     cout<<endl;
     return 0;
 }
+
 
 Program to find the frequency of characters of a String object
 
@@ -237,4 +245,22 @@ int main()
     }
     cout << "Number of " << checkCharacter << " = " << count;
     return 0;
+}
+
+
+Program to find the frequency of characters in a C-style String
+
+#include <iostream>
+using namespace std;
+int main()
+{
+   char c[] = "C++ programming is not easy.", check = 'm';
+   int count = 0;
+   for(int i = 0; c[i] != '\0'; ++i)
+   {
+       if(check == c[i])
+           ++count;
+   }
+   cout << "Frequency of " << check <<  " = " << count;
+   return 0;
 }
