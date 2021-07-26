@@ -43,4 +43,5 @@
 #Day43 - Practiced problems on Strings in cpp.
 #Day44 - Practiced cpp problems and started with DS.
 #Day45 - Learning DS and Dynamic memory allocation in c.
-#day46 - DMA in c and learning DS.
+#Day46 - DMA in c and learning DS.
+#Day47 - Read Functions fron Let Us C book and solved the output problems and also learning DS 
