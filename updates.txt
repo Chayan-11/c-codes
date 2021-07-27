@@ -45,3 +45,4 @@
 #Day45 - Learning DS and Dynamic memory allocation in c.
 #Day46 - DMA in c and learning DS.
 #Day47 - Read Functions fron Let Us C book and solved the output problems and also learning DS. 
+#Day48 - Read Pointers and Recursion from let us c book along with solving few examples and learning DS.
