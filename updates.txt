@@ -50,4 +50,5 @@
 #Day50 - Arrays theory from Let us C and learning DS.
 #Day51 - Multi-Dimensional Arrays theory from let us C and function examples on cpp with DS learning.
 #Day52 - Recursive function problems along with DS learning.
-#Day53 - Arrays with call by reference function tutorial in c and Abdul bari lectures Video#01 
+#Day53 - Arrays with call by reference function tutorial in c and Abdul bari lectures Video#01.
+#Day54 - Arrays exercise solving of let us c.
