@@ -55,3 +55,4 @@
 #Day55 - Recursion solving of let us c and abdul bari lectures with a bit of python tutorial. 
 #Day56 - Multi-Dimensional arrays problem solving along with function from let us c and bit of python tutorial.
 #Day57 - Pointers and Strings problem solving from Let Us C and Python tutorial.
+#Day58 - Pointers problem solving along with basic python tutorial completion.
