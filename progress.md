@@ -1,64 +1,68 @@
-* ## Day 1:- *Learned about the Basics of GitHub + GitHub Features like Repositories, Pull Request, Issues, User Profile, using markdown on GitHub and GitHub Community.*
+# ♦ Programming updates
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 2:- *Learned about branching, clonning and forking (i.e) GitHub flow basically. Also learned about functions and practiced some problems from Functions.*
+
+* ### Day 1:- *Learned about the Basics of GitHub + GitHub Features like Repositories, Pull Request, Issues, User Profile, using markdown on GitHub and GitHub Community.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 3:- *Practiced problems on Functions.*
+* ### Day 2:- *Learned about branching, clonning and forking (i.e) GitHub flow basically. Also learned about functions and practiced some problems from Functions.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 4:- *Problems on Functions along with problems on Patterns.*
+* ### Day 3:- *Practiced problems on Functions.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 5:- *Practiced problems on For-loops, Switch case and functions.*
+* ### Day 4:- *Problems on Functions along with problems on Patterns.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 6:- *Practiced problems on while loop and functions along with learned to update the Readme profile of GitHub to create a beautiful landing page of my own profile.*
+* ### Day 5:- *Practiced problems on For-loops, Switch case and functions.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 7:- *Took lessons from NESO Academy on Functions theory and practiced problems on While loop and patterns.*
+* ### Day 6:- *Practiced problems on while loop and functions along with learned to update the Readme profile of GitHub to create a beautiful landing page of my own profile.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 8:- *Learned about arrays and practiced few problems on arrays.*
+* ### Day 7:- *Took lessons from NESO Academy on Functions theory and practiced problems on While loop and patterns.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 9:- *Learned about git and github from code for cause YT channel and practiced little problems from array.*
+* ### Day 8:- *Learned about arrays and practiced few problems on arrays.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 10:- *Practiced few problems on arrays and functions.* 
+* ### Day 9:- *Learned about git and github from code for cause YT channel and practiced little problems from array.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 11:- *Practiced problems on functions, arrays and strings along with a tutorial on strings from udemy.*
+* ### Day 10:- *Practiced few problems on arrays and functions.* 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 12:- *Practiced problems on strings and watched video tutorial on strings from udemy.*
+* ### Day 11:- *Practiced problems on functions, arrays and strings along with a tutorial on strings from udemy.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 13:- *Practiced problems on strings and functions.*
+* ### Day 12:- *Practiced problems on strings and watched video tutorial on strings from udemy.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 14:- *Practiced problems on arrays, strings and patterns.*
+* ### Day 13:- *Practiced problems on strings and functions.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 15:- *Practiced problems on functions and created Quiz game on C.*
+* ### Day 14:- *Practiced problems on arrays, strings and patterns.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 16:- *Practiced problems on functions call by value and call by reference and also read documentation on C programming basics from GFG with personalized notes.*
+* ### Day 15:- *Practiced problems on functions and created Quiz game on C.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 17:-  *Read editorials on GFG and got started with CodeForces with watermelon prob and Theatre square prob.*
+* ### Day 16:- *Practiced problems on functions call by value and call by reference and also read documentation on C programming basics from GFG with personalized notes.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 18:- *Read editorials from GFG on variables & keywords and completed 3* on Hackerrank in cpp with a little revision on GitHub from Edureka.* 
+* ### Day 17:-  *Read editorials on GFG and got started with CodeForces with watermelon prob and Theatre square prob.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 19:- *Practiced problems on do-while loop and cpp probs on hackerrank and also created a ppt on canva on how to give a nice presentation.*
+* ### Day 18:- *Read editorials from GFG on variables & keywords and completed 3* on Hackerrank in cpp with a little revision on GitHub from Edureka.* 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ## Day 20:- *Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML.* 
+* ### Day 19:- *Practiced problems on do-while loop and cpp probs on hackerrank and also created a ppt on canva on how to give a nice presentation.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day21 - HTML basics tutorial.
+* ### Day 20:- *Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML.* 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+* ### Day 21:- HTML basics tutorial.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Day22 - Problems on strings and learned few HTML tags.
