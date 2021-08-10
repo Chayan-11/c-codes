@@ -65,10 +65,10 @@
 * ### Day 21:- HTML basics tutorial.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day22 - Problems on strings and learned few HTML tags.
+* ### Day 22:- Problems on strings and learned few HTML tags.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day23 - Practiced problems on basic mathematics and strings. 
+* ### Day23:- Practiced problems on basic mathematics and strings. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Day24 - Practiced problems on advanced array, pointers and strings.
