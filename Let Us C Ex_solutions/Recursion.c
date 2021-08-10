@@ -56,3 +56,24 @@ int binary(int n)
 		binary(n); //recursive call
 		printf("%d",r);
 }
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+// Write a recursive function to obtain the running sum of first 25 natural numbers.
+
+#include<stdio.h>
+int getsum(int);
+int main()
+{
+	int s;
+	s=getsum(0);
+	printf("The sum of first 25 natural numbers is = %d",s);
+	return 0;
+}
+int getsum(int n)
+{
+	int sum=0;
+	if(n==25)
+	return sum;
+	sum=n+getsum(++n);
+	return sum;
+}
