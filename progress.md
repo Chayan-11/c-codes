@@ -62,127 +62,129 @@
 * ### Day 20:- *Practiced problems on functions and do-while and completed reading editorials from GFG on scope and variable declaration and also started learning HTML.* 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ### Day 21:- HTML basics tutorial.
+* ### Day 21:- *HTML basics tutorial.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ### Day 22:- Problems on strings and learned few HTML tags.
+* ### Day 22:- *Problems on strings and learned few HTML tags.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-* ### Day23:- Practiced problems on basic mathematics and strings. 
+* ### Day23:- *Practiced problems on basic mathematics and strings.* 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day24 - Practiced problems on advanced array, pointers and strings.
+* ### Day 24:- *Practiced problems on advanced array, pointers and strings.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day25 - Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays.
+* ### Day 25:- *Practiced new concepts like rand() function and problems on input restrictions along with some theoretical part and few program on advanced arrays.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day26 - Practiced only few problems with functions and pointers. 
+* ### Day 26:- *Practiced only few problems with functions and pointers.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day27 - Theoretical knowledge on pointers.
+* ### Day 27:- *Theoretical knowledge on pointers.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day28 - Started with basic problems of Strings in cpp.
+* ### Day 28:- *Started with basic problems of Strings in cpp.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day29 - Solved problems of Strings in cpp.
+* ### Day 29:- *Solved problems of Strings in cpp.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day30 - Remaining problems on strings.
+* ### Day 30:- *Remaining problems on strings.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day31 - Practiced problems on basic programs of cpp and do-while loop using c. 
+## Day 31 - Practiced problems on basic programs of cpp and do-while loop using c. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis.
+## Day 32 - Created a project of calculator on cpp and discovering UI/UX designing and Data Analysis.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5. 
+## Day 33 - Practiced codes on for loop, while loop and arrays and also learning basic HTML5. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day34 - HTML tutorial and practiced basic cpp programs.
+## Day 34 - HTML tutorial and practiced basic cpp programs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day35 - Learning HTML tags and practiced basic cpp programs.
+## Day 35 - Learning HTML tags and practiced basic cpp programs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day36 - HTML tutorial and edited Readme profile, Also practiced basic cpp programs.
+## Day 36 - HTML tutorial and edited Readme profile, Also practiced basic cpp programs.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day37 - HTML tutorial and practicing cpp problems from patterns and number conversion.
+## Day 37 - HTML tutorial and practicing cpp problems from patterns and number conversion.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day38 - HTML5 tutorial and practised pattern problems in cpp.
+## Day 38 - HTML5 tutorial and practised pattern problems in cpp.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day39 - Created Forms using HTML and practiced basic cpp programs on patterns and number conversion.
+## Day 39 - Created Forms using HTML and practiced basic cpp programs on patterns and number conversion.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day40 - Created unordered, ordered and definitive lists in HTML and practiced patterns program in cpp. Learning HTML too.
+## Day 40 - Created unordered, ordered and definitive lists in HTML and practiced patterns program in cpp. Learning HTML too.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day41 - HTML5 tutorial learned from Sololearn and creating some demonstrations regarding the same.
+## Day 41 - HTML5 tutorial learned from Sololearn and creating some demonstrations regarding the same.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day42 - Learning to create web page using HTML5 and practiced some miscellaneous topics on cpp along with adobe xd tutorial. 
+## Day 42 - Learning to create web page using HTML5 and practiced some miscellaneous topics on cpp along with adobe xd tutorial. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day43 - Practiced problems on Strings in cpp.
+## Day 43 - Practiced problems on Strings in cpp.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day44 - Practiced cpp problems and started with DS.
+## Day 44 - Practiced cpp problems and started with DS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day45 - Learning DS and Dynamic memory allocation in c.
+## Day 45 - Learning DS and Dynamic memory allocation in c.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day46 - DMA in c and learning DS.
+## Day 46 - DMA in c and learning DS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day47 - Read Functions fron Let Us C book and solved the output problems and also learning DS. 
+## Day 47 - Read Functions fron Let Us C book and solved the output problems and also learning DS. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day48 - Read Pointers and Recursion from let us c book along with solving few examples and learning DS.
+## Day 48 - Read Pointers and Recursion from let us c book along with solving few examples and learning DS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day49 - Started with c preprocessors and learning DS.
+## Day 49 - Started with c preprocessors and learning DS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day50 - Arrays theory from Let us C and learning DS.
+## Day 50 - Arrays theory from Let us C and learning DS.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day51 - Multi-Dimensional Arrays theory from let us C and function examples on cpp with DS learning.
+## Day 51 - Multi-Dimensional Arrays theory from let us C and function examples on cpp with DS learning.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day52 - Recursive function problems along with DS learning.
+## Day 52 - Recursive function problems along with DS learning.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day53 - Arrays with call by reference function tutorial in c and Abdul bari lectures Video#01.
+## Day 53 - Arrays with call by reference function tutorial in c and Abdul bari lectures Video#01.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day54 - Arrays exercise solving of let us c.
+## Day 54 - Arrays exercise solving of let us c.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day55 - Recursion solving of let us c and abdul bari lectures with a bit of python tutorial. 
+## Day 55 - Recursion solving of let us c and abdul bari lectures with a bit of python tutorial. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day56 - Multi-Dimensional arrays problem solving along with function from let us c and bit of python tutorial.
+## Day 56:- *Multi-Dimensional arrays problem solving along with function from let us c and bit of python tutorial.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day57 - Pointers and Strings problem solving from Let Us C and Python tutorial.
+## Day 57:- *Pointers and Strings problem solving from Let Us C and Python tutorial.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day58 - Pointers problem solving along with basic python tutorial completion.
+## Day 58:- *Pointers problem solving along with basic python tutorial completion.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Day59 - cpp problem solving session.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day 60:- *Pointers problem solving and CC long challenge olympic problem solved.*
+## Day 59:- *cpp problem solving session.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Day 61:- *Recursion problems from let us C exercise and CC long challenge Special Trip;ets problem solved.*
+* ### Day 60:- *Pointers problem solving and CC long challenge olympic problem solved.*
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+* ### Day 61:- *Recursion problems from let us C exercise and CC long challenge Special Trip;ets problem solved.*
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+* ### Day 62:- *cpp problem solving session along with CC beginner's level practice.*
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
