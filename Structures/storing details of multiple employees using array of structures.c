@@ -22,7 +22,7 @@ int main()
    printf("Enter Number of Employees = \n");
    scanf("%d", &no_of_emp);
     
-   //Storing employee detaisl in structure array 
+   //Storing employee details in structure array 
    
    for(i = 0; i < no_of_emp; i++)
    { 
