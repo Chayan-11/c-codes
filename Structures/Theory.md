@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------
-## ♦ Structures
+### <p align="center"> ♦ Structures </p>
 
 * **It is the ordered collection of simple variables.**
 * **Variables inside the structures are called member of structures.**
@@ -8,7 +8,7 @@
 * **Basically Structure is a complex data type.**
 ------------------------------------------------------------------------------------
 
-### ♦ Syntax:- 
+### ◻ Syntax:- 
 ```
 Struct <struct name>
 {
@@ -25,11 +25,11 @@ Struct <struct name>
 * **The individual data members are enclosed within curly brackets. The ending curly bracket is followed by a semicolon indicating end of structure.**
 ----------------------------------------------------------------------------------------
 
-## ♦ Referencing Structure elements:- 
+## ◻ Referencing Structure elements:- 
 
 * **Structure elements are generally referenced on individual basis. They can be accessed by writing.**
 ----------------------------------------------------------------------------------------
-### ♦ Syntax:-
+### ◻ Syntax:-
 ```
 variable.member;
 ```
