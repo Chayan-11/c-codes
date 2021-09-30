@@ -1,2 +1,8 @@
-# C Cpp codes
-Contains some basic and advance problems of c and cpp language
+--------------------------------------------------------------------------------------------
+
+### <p align="center"> 👨‍💻 Basic Codes </p>
+
+--------------------------------------------------------------------------------------------
+
+
+* **Contains some basic and advance problems of c and cpp language**
